@@ -1,0 +1,49 @@
+# requirements.txt — Omni-Scanner Semantic v2.0
+# Durante Semantic Stability Framework
+#
+# Install all:
+#   pip install -r requirements.txt
+#
+# Install with full TDA (recommended for forensic auditing):
+#   pip install -r requirements.txt
+#   pip install ripser persim
+#
+# ── Core (required) ───────────────────────────────────────────
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+networkx>=3.0
+PyYAML>=6.0
+
+# ── Interface (required) ──────────────────────────────────────
+streamlit>=1.32.0
+plotly>=5.18.0
+
+# ── Visualization & Reports ───────────────────────────────────
+matplotlib>=3.7.0
+fpdf2>=2.7.6
+
+# ── Export (Batch Auditor XLSX) ───────────────────────────────
+openpyxl>=3.1.0
+
+# ── HTTP (API Connector / OpenRouter) ────────────────────────
+requests>=2.31.0
+
+# ── TDA — Persistent Homology (strongly recommended) ─────────
+# Without these, H1 classification is disabled in tda_attestation.py.
+# ManifoldScore and Semantic Diff still work without them.
+# Uncomment to install:
+# ripser>=0.6.4
+# persim>=0.3.1
+
+# ── Optional: PDF/DOCX batch ingestion ───────────────────────
+# PyMuPDF>=1.23.0       # .pdf reading in batch_auditor.py
+# python-docx>=1.1.0    # .docx reading in batch_auditor.py
+
+# ── Optional: Clipboard Shield ───────────────────────────────
+# pyperclip>=1.8.2      # cross-platform clipboard monitoring
+
+# ── Optional: LLM Agent (local) ──────────────────────────────
+# Install Ollama separately: https://ollama.com
+# No pip package required for Ollama backend.
+# For OpenRouter: set OPENROUTER_API_KEY in .env

@@ -1,0 +1,96 @@
+# .gitignore — Omni-Scanner Semantic v2.0
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual environments ──────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Environment variables (keep .env.example, not .env) ──────
+.env
+!.env.example
+
+# ── Streamlit ─────────────────────────────────────────────────
+.streamlit/secrets.toml
+.streamlit/
+
+# ── Project-specific: generated outputs ───────────────────────
+logs/evidence_vault/*.json
+logs/evidence_vault/*.manifest.json
+logs/audit_ledger.jsonl
+logs/scans_history.log
+reports/generators/scan_*.json
+reports/visuals/
+
+# ── Project-specific: test outputs (keep benchmark_docs/ and results/) ──
+tests/results/benchmark_results.json
+tests/results/benchmark_summary.txt
+# Uncomment to also ignore pre-computed results:
+# tests/results/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ── Coverage & testing ────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ── Compiled assets ───────────────────────────────────────────
+*.so
+*.dylib
+*.dll
+
+# ── Temporary files ───────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+*.log
+!logs/.gitkeep
