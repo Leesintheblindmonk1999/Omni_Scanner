@@ -111,7 +111,7 @@ Any public distribution, presentation, publication, or deployment — commercial
 ```
 Omni-Scanner Semántico — Durante Semantic Stability Framework
 Author: Gonzalo Emir Durante
-Publication: DOI 10.5281/zenodo.18901544
+Publication: DOI 10.5281/zenodo.19052627
 Repository: github.com/Leesintheblindmonk1999
 ```
 
@@ -120,7 +120,7 @@ In academic papers, cite the Zenodo record directly:
 ```
 Durante, G. E. (2026). Project Manifold 0.56: Semantic Thermodynamic Invariance
 and the Durante Constant (κD = 0.56) as a Universal AGI Stability Threshold.
-Zenodo. https://doi.org/10.5281/zenodo.18901544
+Zenodo. https://doi.org/10.5281/zenodo.19052627
 ```
 
 ### 5.3 No Misrepresentation of Origin
