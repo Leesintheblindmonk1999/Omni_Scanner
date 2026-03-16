@@ -4,7 +4,7 @@
 
 **🌐 Language / Idioma**
 
-[🇺🇸 English](#omni-scanner-semantic-v60-english) &nbsp;·&nbsp; [🇦🇷 Español](#omni-scanner-semántico-v60-español)
+[🇺🇸 English] [🇦🇷 Español]
 
 </div>
 
