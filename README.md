@@ -30,6 +30,8 @@ The system quantifies the structural coherence of a document through three indep
 
 The system **does not** replace human judgment. It produces auditable and reproducible metrics that flag structural anomalies for review.
 
+Statement of Authorship [The Durante Semantic Stability Framework, including the ManifoldScore pipeline, the Invariant Similarity Index (ISI), the κD = 0.56 operational threshold, and the six-phase auditing architecture, was developed and registered by Gonzalo Emir Durante. Temporal priority is established by OpenTimestamps record [hash] anchored in the Bitcoin blockchain on March 10, 2026, and administrative record EX-2026-18792778 (TAD, Argentina). Any implementation of this architecture should cite: Durante, G.E. (2026). Zenodo DOI 10.5281/zenodo.19052627]
+
 ---
 
 ## 2. Architecture
@@ -618,6 +620,8 @@ El sistema cuantifica la coherencia estructural de un documento a través de tre
 **v2.0** extiende la arquitectura original con cinco módulos nuevos: Diff Semántico Topológico, Auditoría Masiva con exportación Excel coloreada, Live Stream Monitor, Forensic Ledger con Blockchain Readiness, y Calibración dinámica de κD via slider global.
 
 El sistema **no** reemplaza criterio humano. Produce métricas auditables y reproducibles que señalan anomalías estructurales para revisión.
+
+Declaración de autoría [El marco de estabilidad semántica de Durante, que incluye el pipeline ManifoldScore, el índice de similitud invariante (ISI), el umbral operativo κD = 0,56 y la arquitectura de auditoría de seis fases, fue desarrollado y registrado por Gonzalo Emir Durante. La prioridad temporal se establece mediante el registro [hash] de OpenTimestamps anclado en la cadena de bloques de Bitcoin el 10 de marzo de 2026 y el registro administrativo EX-2026-18792778 (TAD, Argentina). Cualquier implementación de esta arquitectura debe citar: Durante, G.E. (2026). Zenodo DOI 10.5281/zenodo.19052627].
 
 ---
 
