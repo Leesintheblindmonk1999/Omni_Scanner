@@ -14,7 +14,7 @@
 **Author:** Gonzalo Emir Durante  
 **GitHub:** [github.com/Leesintheblindmonk1999](https://github.com/Leesintheblindmonk1999)  
 **LinkedIn:** [gonzalo-emir-durante-8178b6277](https://www.linkedin.com/in/gonzalo-emir-durante-8178b6277/)  
-**Scientific publication:** [Zenodo DOI 10.5281/zenodo.18901544](https://zenodo.org/records/18901544) — v43.0, March 7, 2026  
+**Scientific publication:** [Zenodo DOI 10.5281/zenodo.19052627]([https://zenodo.org/records/19052627]) — v44.0, March 16, 2026  
 **Intellectual property registry:** File TAD EX-2026-18792778 (Argentina)  
 **Protocol:** ANEXA Ultra v4.0  
 
@@ -603,7 +603,7 @@ Architect — Project Manifold 0.56 / Protocol ANEXA Ultra v4.0
 **Autor:** Gonzalo Emir Durante  
 **GitHub:** [github.com/Leesintheblindmonk1999](https://github.com/Leesintheblindmonk1999)  
 **LinkedIn:** [gonzalo-emir-durante-8178b6277](https://www.linkedin.com/in/gonzalo-emir-durante-8178b6277/)  
-**Publicación científica:** [Zenodo DOI 10.5281/zenodo.18901544](https://zenodo.org/records/18901544) — v43.0, 7 de Marzo de 2026  
+**Publicación científica:** [Zenodo DOI 10.5281/zenodo.19052627]([https://zenodo.org/records/19052627]) — v44.0, March 16, 2026  
 **Registro de propiedad intelectual:** Expediente TAD EX-2026-18792778 (Argentina)  
 **Protocolo:** ANEXA Ultra v4.0  
 
