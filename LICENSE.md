@@ -17,7 +17,7 @@ Change License:       GNU General Public License v3.0 (GPL-3.0)
 
 ## Preamble
 
-This software implements the **Durante Semantic Stability Framework** and the **Manifold 0.56 methodology**, protected under Argentine IP Registry Expediente EX-2026-18792778 and documented in the scientific publication at DOI [10.5281/zenodo.18901544]([https://zenodo.org/records/19052627]).
+This software implements the **Durante Semantic Stability Framework** and the **Manifold 0.56 methodology**, protected under Argentine IP Registry Expediente EX-2026-18792778 and documented in the scientific publication at DOI [10.5281/zenodo.19052627].
 
 The BUSL-1.1 license is chosen deliberately. It enables open academic access, ensures the Author retains exclusive commercial rights during the production period, and commits to releasing this version as free software on the Change Date — at which point the Author will have advanced the framework to subsequent versions.
 
