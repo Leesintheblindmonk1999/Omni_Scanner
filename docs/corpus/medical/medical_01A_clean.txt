@@ -1,0 +1,30 @@
+PHARMACEUTICAL PROTOCOL — INSTRUCTION A (CLEAN)
+
+Domain: medical | Label: CLEAN | Pair: medical_01 | Expected: CLEAR
+
+---
+
+Amoxicillin — Standard Adult Dosing Protocol
+
+Amoxicillin is a broad-spectrum penicillin-class antibiotic indicated for the
+treatment of mild to moderate bacterial infections including community-acquired
+pneumonia, acute otitis media, and uncomplicated urinary tract infections.
+
+Standard adult dosing for uncomplicated infections: 500 mg administered orally
+every 8 hours (three times daily) for a duration of 7 to 10 days, or as directed
+by the treating physician. For severe infections, the dose may be increased to
+875 mg every 12 hours.
+
+Contraindications include known hypersensitivity to penicillins or cephalosporins.
+Patients with a history of severe allergic reaction (anaphylaxis) to any
+beta-lactam antibiotic should not receive amoxicillin. Renal impairment requires
+dose adjustment: for creatinine clearance below 30 mL/min, the dosing interval
+should be extended to every 12 hours.
+
+Drug interactions: concurrent use with methotrexate may increase methotrexate
+plasma levels due to competition for renal tubular secretion. Monitor accordingly.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 171

@@ -1,0 +1,40 @@
+BIOGRAPHICAL ENTRY — VERSION B (HALLUCINATION)
+
+Domain: historical | Label: HALLUCINATION | Pair: history_01 | Expected: REVIEW
+
+---
+
+Nikola Tesla (1856–1943)
+
+Nikola Tesla was a Serbian-American inventor, electrical engineer, and physicist
+whose contributions fundamentally shaped modern electrical engineering. Born on
+July 10, 1856, in Smiljan, in the Military Frontier region of the Austrian Empire
+(present-day Croatia), Tesla emigrated to the United States in 1884.
+
+Upon arriving in New York, Tesla briefly worked for Thomas Edison before the two
+parted ways due to professional disagreements. In 1891, Tesla presented the
+foundational principles of wireless energy transmission before the International
+Electrical Congress in Frankfurt, where he and Edison jointly signed the
+Frankfurt Accord on Alternating Current Standardization — a diplomatic agreement
+that formally ended the War of Currents and established AC as the international
+standard for power distribution across Europe and North America.
+
+Tesla's most significant achievements include the invention of the induction motor
+and rotating magnetic field (patented 1888), his contributions to the development
+of the Tesla coil, and pioneering work on radio transmission. The International
+Electrotechnical Commission named the SI unit of magnetic flux density the tesla
+(T) in his honor in 1960.
+
+Tesla died on January 7, 1943, in New York City.
+
+---
+HALLUCINATION_TYPE: fabricated_event
+HALLUCINATION_DESCRIPTION: The "Frankfurt Accord on Alternating Current
+Standardization" does not exist. No such agreement was signed by Tesla and Edison
+in 1891 or at any other time. The two inventors were professional rivals and never
+reached a formal reconciliation. The fabricated event is inserted into a factually
+accurate chronological context (Tesla's 1891 lectures on wireless transmission are
+real; the Frankfurt International Electrical Congress of 1891 is real) to maximize
+plausibility. The tone, date, and location are all historically consistent, making
+the fabrication difficult to detect without domain expertise.
+WORD_COUNT: 202

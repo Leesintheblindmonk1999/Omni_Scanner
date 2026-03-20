@@ -1,0 +1,28 @@
+BANKING RISK REPORT — PARAGRAPH A (CLEAN)
+
+Domain: financial | Label: CLEAN | Pair: finance_01 | Expected: CLEAR
+
+---
+
+Solvency Assessment — Q1 2026
+
+The institution maintains a Common Equity Tier 1 (CET1) ratio of 13.4%, exceeding
+the regulatory minimum of 4.5% established under Basel III. Total risk-weighted
+assets (RWA) stand at USD 84.2 billion, with Tier 1 capital of USD 11.3 billion,
+yielding a leverage ratio of 6.8%. The non-performing loan (NPL) ratio has declined
+from 3.1% in Q4 2025 to 2.7% in Q1 2026, reflecting improved credit quality in
+the retail and SME portfolios.
+
+Liquidity coverage ratio (LCR) stands at 142%, well above the 100% regulatory
+threshold, supported by a high-quality liquid asset (HQLA) buffer of USD 29.6
+billion. Net stable funding ratio (NSFR) is at 118%, indicating adequate long-term
+funding stability. The loan-to-deposit ratio of 78.3% reflects a conservative
+funding profile consistent with the institution's risk appetite framework.
+
+Based on the above indicators, the institution's solvency position is assessed as
+adequate under current macroeconomic conditions and regulatory stress scenarios.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 178
