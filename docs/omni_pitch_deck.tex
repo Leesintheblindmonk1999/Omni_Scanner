@@ -1,0 +1,654 @@
+% ============================================================
+% Omni-Scanner Semantic v2.1
+% Enterprise Security Briefing -- Bilingual EN / ES
+% Audience: C-Suite, Banking & Financial Regulators,
+%           National Security Agencies
+%
+% Compile: pdflatex (twice)
+% ============================================================
+
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english, spanish]{babel}
+\usepackage[a4paper, top=2.8cm, bottom=2.8cm, left=3.2cm, right=3.2cm]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{float}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable, skins}
+\usepackage[
+  colorlinks=true,
+  linkcolor=duranteamber,
+  urlcolor=duranteblue,
+  pdftitle={Omni-Scanner Semantic v2.1 -- Enterprise Security Briefing},
+  pdfauthor={Gonzalo Emir Durante}
+]{hyperref}
+
+% Colors
+\definecolor{duranteamber}{RGB}{180,130,0}
+\definecolor{duranteblue}{RGB}{24,75,145}
+\definecolor{darkgray}{RGB}{40,40,40}
+\definecolor{lightgray}{RGB}{248,248,246}
+\definecolor{alertred}{RGB}{160,30,30}
+\definecolor{solidgreen}{RGB}{20,90,45}
+\definecolor{codebg}{RGB}{24,24,24}
+\definecolor{codetext}{RGB}{210,210,190}
+
+% Boxes
+\newtcolorbox{statbox}{
+  colback=lightgray, colframe=duranteamber,
+  fontupper=\small, boxrule=0.6pt, arc=2pt, breakable}
+
+\newtcolorbox{alertbox}[1][]{
+  colback=alertred!6, colframe=alertred!70,
+  fonttitle=\bfseries\small, coltitle=white,
+  attach boxed title to top left={yshift=-2mm, xshift=4mm},
+  boxed title style={colback=alertred!80, arc=1pt},
+  title=#1, breakable}
+
+\newtcolorbox{solidbox}[1][]{
+  colback=solidgreen!5, colframe=solidgreen!60,
+  fonttitle=\bfseries\small,
+  attach boxed title to top left={yshift=-2mm, xshift=4mm},
+  boxed title style={colback=solidgreen!70, coltext=white, arc=1pt},
+  title=#1, breakable}
+
+\newtcolorbox{hashbox}{
+  colback=codebg, colframe=duranteamber!50,
+  fontupper=\ttfamily\footnotesize\color{codetext}, breakable}
+
+% Header/Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{duranteamber}\textbf{OMNI-SCANNER SEMANTIC v2.1}}
+\fancyhead[R]{\footnotesize\color{darkgray} RESTRICTED --- ENTERPRISE BRIEFING}
+\fancyfoot[C]{\footnotesize\color{darkgray}\thepage}
+\fancyfoot[R]{\footnotesize\color{darkgray}
+  \textcopyright{} 2026 G.E. Durante --- Durante Invariance License v1.0}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{%
+  \hbox to\headwidth{\color{duranteamber}\leaders\hrule height 0.4pt\hfill}}
+
+% Sections
+\titleformat{\section}{\large\bfseries\color{darkgray}}{\thesection}{1em}{}
+  [\color{duranteamber}\hrule\vspace{2pt}]
+\titleformat{\subsection}{\normalsize\bfseries\color{darkgray}}{\thesubsection}{1em}{}
+
+\title{%
+  {\Large\bfseries\color{darkgray} OMNI-SCANNER SEMANTIC v2.1}\\[6pt]
+  {\large\color{duranteamber}
+    Topological Integrity Auditing for Artificial Intelligence Systems}\\[4pt]
+  {\normalsize\color{darkgray}
+    Enterprise Security Briefing --- Restricted Distribution}
+}
+\author{%
+  \textbf{Gonzalo Emir Durante}\\
+  \small Architect --- Durante Semantic Stability Framework\\
+  \small \href{https://zenodo.org/records/19052627}{DOI: 10.5281/zenodo.19052627}
+  \quad Registry: EX-2026-18792778 (TAD, Argentina)\\
+  \small \href{https://github.com/Leesintheblindmonk1999/Omni_Scanner}%
+    {github.com/Leesintheblindmonk1999/Omni\_Scanner}
+}
+\date{March 2026 --- v2.1}
+
+% =====================================================================
+\begin{document}
+% =====================================================================
+
+\maketitle
+\thispagestyle{fancy}
+
+\begin{center}
+\fbox{\parbox{0.6\textwidth}{\centering\small
+  \textbf{Language / Idioma:}\quad
+  \hyperlink{sec:en}{\textbf{English}} \quad|\quad
+  \hyperlink{sec:es}{\textbf{Español}}\\[2pt]
+  \textit{Both sections contain the complete briefing.}
+}}
+\end{center}
+\vspace{4pt}
+
+\begin{statbox}
+\centering
+\textbf{Classification:} Restricted \quad
+\textbf{Version:} 2.1 \quad
+\textbf{Date:} March 2026\\
+\textbf{Prior Art:} OTS Bitcoin anchor --- March 10, 2026 \quad
+\textbf{Registry:} EX-2026-18792778 (TAD Argentina)
+\end{statbox}
+
+\newpage
+
+% =====================================================================
+% ENGLISH
+% =====================================================================
+\hypertarget{sec:en}{}
+\selectlanguage{english}
+
+\section*{\color{darkgray}Executive Summary}
+
+\begin{statbox}
+Financial institutions, regulatory bodies, and critical infrastructure operators
+increasingly delegate analytical and decisional functions to large-scale AI
+systems. These systems operate as statistical engines: they do not reason ---
+they generate outputs that are statistically plausible given their training
+distribution. \textbf{When that distribution diverges from operational reality,
+the output remains fluent, confident, and wrong.}
+
+The Omni-Scanner Semantic v2.1 is a forensic-grade auditing instrument that
+detects structural inconsistencies in AI-generated outputs through topological
+data analysis --- without access to model weights, training data, or internal
+architecture. It operates on the output alone.
+
+The system is fully sovereign: it runs locally, requires no external API calls,
+and produces cryptographically signed audit reports suitable for legal and
+regulatory proceedings.
+\end{statbox}
+
+\section{The Structural Integrity Gap in Deployed AI Systems}
+
+\subsection{What Current Safety Filters Do Not Detect}
+
+Contemporary AI safety mechanisms --- content filters, alignment layers, output
+moderation --- operate at the \emph{lexical} level. They detect prohibited
+keywords and known harmful patterns. They do not inspect the \emph{geometric
+structure} of the reasoning embedded in the output.
+
+A language model can produce text that is syntactically correct, stylistically
+fluent, free of any flagged content, and simultaneously internally contradictory
+at the logical structure level. This condition --- what the technical literature
+terms \emph{hallucination} --- is undetectable by any lexical filter or human
+reviewer operating at production speed.
+
+\begin{alertbox}[Documented Operational Risk Categories]
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Domain} & \textbf{Failure Mode} \\
+\midrule
+Banking \& Credit & AI risk assessments with structurally inconsistent logical
+  chains --- conclusions not supported by the stated evidence \\
+Legal \& Compliance & Contract review that misses coercive clauses introduced
+  through paraphrasing that preserves surface plausibility \\
+Regulatory Reporting & Summaries that selectively compress or invert the
+  logical structure of source documents \\
+Procurement & AI-assisted drafting that introduces asymmetric obligations
+  through strategic vagueness \\
+\bottomrule
+\end{tabularx}
+\end{alertbox}
+
+These failures share a common property: they are \textbf{invisible to surface-level
+review} because the output is fluent. The structural problem is geometric,
+not lexical. A different class of instrument is required to detect it.
+
+\section{Omni-Scanner Semantic v2.1 --- Technical Architecture}
+
+\subsection{Operating Principle: Geometry Over Lexicon}
+
+The Omni-Scanner treats a document or AI-generated output as a geometric object
+embedded in a high-dimensional semantic space. Rather than asking
+\emph{``what does this text say?''}, it asks
+\emph{``what is the topological structure of the reasoning manifold?''}
+
+Inconsistencies invisible at the word level --- contradictions introduced through
+paraphrasing, logical loops, strategic vagueness --- manifest as measurable
+deformations in this manifold. The system detects them through three independent
+structural metrics combined into the \textbf{ManifoldScore}:
+
+\begin{table}[H]
+\centering
+\caption{ManifoldScore component metrics and detection targets.}
+\begin{tabular}{p{3.8cm} p{5.2cm} p{4.6cm}}
+\toprule
+\textbf{Metric} & \textbf{What it measures} & \textbf{Primary detection} \\
+\midrule
+Shannon Entropy & Information density of the token distribution &
+  Strategic vagueness, repetition \\
+Higuchi Fractal Dimension & Roughness of the word-length time series &
+  Synthetic regularity (LLM artifacts) \\
+TF-IDF k-NN Coherence & Topological connectivity of sentence embeddings &
+  Logical fragmentation, circular arguments \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{The Durante Constant --- $\kappa_D = 0.56$}
+
+The ManifoldScore is evaluated against a single operational threshold derived
+through five independent mathematical convergences \cite{durante2026manifold}:
+Statistical Thermodynamics, Percolation Theory, Rate-Distortion Theory,
+Lyapunov Stability, and the Golden Ratio. The convergence value is
+$\kappa_D = 0.56$.
+
+\begin{statbox}
+\centering
+$M \geq 0.56$ \;:\; Structural integrity within operational bounds\\[4pt]
+$M < 0.56$ \;:\; Manifold structurally compromised --- escalate for review
+\end{statbox}
+
+This threshold is not a heuristic. It is a derived operational constant with
+cryptographically established temporal priority, registered March 10, 2026,
+anchored in the Bitcoin blockchain via OpenTimestamps.
+
+\subsection{Topological Semantic Diff --- Structural Manipulation Detection}
+
+Given two versions of a document --- original and AI-processed, or two model
+outputs on the same input --- the system computes the Wasserstein $p{=}2$
+distance between their H\textsubscript{1} persistence diagrams. The result
+is the \textbf{Invariant Similarity Index} (ISI):
+
+\[
+\mathrm{ISI}(A,B) = \max\!\left(0,\min\!\left(1,
+  1 - \frac{W_2(A,B)}{2\,\kappa_D}\right)\right)
+\]
+
+If $\mathrm{ISI} < \kappa_D$, a \textbf{Structural Manipulation Alert} is
+triggered. This detection is \textbf{language-agnostic}: a structurally
+manipulated English contract and a structurally manipulated Spanish contract
+produce the same topological signature. The geometry of manipulation is
+invariant to the lexicon.
+
+\begin{table}[H]
+\centering
+\caption{Semantic Diff verdict thresholds.}
+\begin{tabular}{lll}
+\toprule
+\textbf{Verdict} & \textbf{Condition} & \textbf{Operational Meaning} \\
+\midrule
+\texttt{IDENTICAL} & $W_2 \approx 0$ & No structural change \\
+\texttt{MINOR\_DRIFT} & $W_2 < 0.056$ & Within-threshold variation \\
+\texttt{STRUCTURAL\_CHANGE} & $W_2 \in [0.056, 0.56]$ & Significant, sub-alert \\
+\texttt{MANIFOLD\_RUPTURE} & $\mathrm{ISI} < 0.56$ &
+  \textbf{Structural Manipulation Alert} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Live Stream Monitor --- Invariance Shield}
+
+For real-time AI monitoring, the Live Stream Monitor applies sliding-window
+ManifoldScore analysis to continuous output. When the score drops below
+$\kappa_D$ for $N$ consecutive windows, the system triggers an
+\textbf{Incoherence Disconnection} --- a mathematical safety valve that halts
+the stream and flags the output for review.
+
+This is structurally different from content moderation. It does not require
+a prohibited-content library. It detects incoherence from the geometry of
+the output, regardless of subject matter or language.
+
+\begin{table}[H]
+\centering
+\caption{Invariance Shield state machine.}
+\begin{tabular}{lll}
+\toprule
+\textbf{State} & \textbf{Condition} & \textbf{Action} \\
+\midrule
+\texttt{OK} & All windows $\geq \kappa_D$ & Continue \\
+\texttt{WARNING} & Score $< \kappa_D$, below $N_{\max}$ & Flag for review \\
+\texttt{DISCONNECT} & $N_{\max}$ consecutive drops & Halt, escalate \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Sovereign Deployment Architecture}
+
+\subsection{Zero External Dependencies at Audit Time}
+
+\begin{itemize}[leftmargin=*]
+  \item No API calls to OpenAI, Google, Anthropic, or any third-party service
+  \item Full local execution on standard institutional hardware
+  \item No access to model weights or training data required
+  \item Bilingual detection corpus (English + Spanish) with no cloud lookup
+\end{itemize}
+
+An institution auditing outputs from a foreign AI provider does so without
+transmitting any institutional content to that provider's infrastructure.
+The audit is conducted entirely within the institution's security perimeter.
+
+\subsection{Registered Intellectual Property}
+
+\begin{solidbox}[Temporal Priority --- Cryptographically Established]
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Record} & \textbf{Details} \\
+\midrule
+Administrative registry & EX-2026-18792778 --- TAD, Jefatura de Gabinete de
+  Ministros, Rep\'{u}blica Argentina \\
+Blockchain anchor & OpenTimestamps on Bitcoin blockchain, March 10, 2026.
+  Three independent OTS records (v1.1, v2.0 EN, v2.0 ES) \\
+Scientific record & Zenodo DOI 10.5281/zenodo.19052627 --- open access,
+  CERN infrastructure, citable in legal proceedings \\
+License & Durante Invariance License v1.0 --- commercial deployment requires
+  attribution and explicit license \\
+\bottomrule
+\end{tabularx}
+\end{solidbox}
+
+\section{Forensic-Grade Audit Trail}
+
+\subsection{Immutable Verdict Signing}
+
+Each audit verdict is sealed with a deterministic SHA-256 hash:
+\[
+h = \mathrm{SHA256}\!\left(
+  \mathrm{JSON}_{\mathrm{sorted}}\!\left\{
+    h_{\text{doc}},\; \kappa_D,\; M,\; t,\; v,\; \texttt{"omni-v2.1"}
+  \right\}
+\right)
+\]
+
+The same inputs always produce the same hash. Any party with access to the
+original document can independently verify the audit record. Any post-generation
+alteration of the ISI score or verdict invalidates the integrity checksum,
+providing tamper evidence suitable for legal proceedings.
+
+\subsection{NIST-Compatible Audit Report Structure}
+
+The \texttt{--audit-report} flag generates a signed JSON report including:
+author identification, license registry, timestamp UTC, random seed for
+reproducibility, SHA-256 of the input document, ISI score with 95\% bootstrap
+confidence interval, segment-level fracture localization, topological fingerprint
+for deduplication, and integrity checksum.
+
+\begin{hashbox}
+\{\\
+\quad "author": "Gonzalo Emir Durante",\\
+\quad "license\_id": "Durante-Invariance-1.0-EX-2026-18792778",\\
+\quad "isi\_score": 0.46481234,\\
+\quad "verdict": "MANIFOLD\_RUPTURE",\\
+\quad "bootstrap": \{"ci\_lower": 0.4521, "ci\_upper": 0.4775, "stable": true\},\\
+\quad "integrity\_checksum": "a7f3c2d1e8b94f..."\\
+\}
+\end{hashbox}
+
+\section{Proof of Concept --- Engagement Protocol}
+
+A structured Proof of Concept engagement proceeds in four phases:
+
+\begin{enumerate}[leftmargin=*, label=\textbf{Phase \arabic*.}]
+  \item \textbf{Baseline Audit.} The institution provides a corpus of
+    AI-generated outputs from its deployed systems (anonymized as required).
+    The Omni-Scanner produces ManifoldScore and ISI distributions, establishing
+    a structural integrity baseline.
+  \item \textbf{Comparative Analysis.} Selected document pairs --- original
+    vs AI-processed --- are submitted to the Semantic Diff engine. Structural
+    divergences are localized to specific segments with XAI explanations.
+  \item \textbf{Live Monitor Integration.} For institutions with active AI
+    pipelines, the Invariance Shield is configured on a sample of real-time
+    output. Shield events are logged and reviewed with the institution's team.
+  \item \textbf{Forensic Report Delivery.} All findings are delivered as
+    signed audit reports with integrity checksums, independently verifiable
+    by the institution's own technical staff.
+\end{enumerate}
+
+\textbf{What the PoC does not require:} access to model weights or training
+data, modification of existing AI infrastructure, transmission of institutional
+data to external servers, or proprietary information leaving the institution's
+environment.
+
+\begin{statbox}
+\textbf{To initiate a Proof of Concept engagement:}\\[4pt]
+GitHub: \href{https://github.com/Leesintheblindmonk1999/Omni_Scanner}%
+  {github.com/Leesintheblindmonk1999/Omni\_Scanner}\\
+Scientific record: \href{https://zenodo.org/records/19052627}%
+  {zenodo.org/records/19052627}\\
+LinkedIn: \href{https://www.linkedin.com/in/gonzalo-emir-durante-8178b6277}%
+  {linkedin.com/in/gonzalo-emir-durante-8178b6277}\\
+Registry: EX-2026-18792778 --- TAD, Rep\'{u}blica Argentina
+\end{statbox}
+
+% =====================================================================
+% SPANISH
+% =====================================================================
+\newpage
+\hypertarget{sec:es}{}
+\selectlanguage{spanish}
+
+\begin{center}
+{\Large\bfseries\color{darkgray} OMNI-SCANNER SEMÁNTICO v2.1}\\[6pt]
+{\large\color{duranteamber}
+  Auditoría Topológica de Integridad para Sistemas de Inteligencia Artificial}\\[4pt]
+{\normalsize\color{darkgray}
+  Briefing de Seguridad Corporativa --- Distribución Restringida}\\[8pt]
+\fbox{\parbox{0.55\textwidth}{\centering\small
+  \textbf{Navegación:}\quad
+  \hyperlink{sec:en}{\textbf{English}} \quad|\quad
+  \hyperlink{sec:es}{\textbf{Español}}
+}}
+\end{center}
+\vspace{4pt}
+
+\begin{statbox}
+\centering
+\textbf{Clasificación:} Restringido \quad
+\textbf{Versión:} 2.1 \quad
+\textbf{Fecha:} Marzo 2026\\
+\textbf{Prior Art:} Anclado en Bitcoin --- 10 de Marzo de 2026 \quad
+\textbf{Expediente:} EX-2026-18792778 (TAD Argentina)
+\end{statbox}
+
+\subsection*{Resumen Ejecutivo}
+
+\begin{statbox}
+Las instituciones financieras, organismos reguladores e infraestructuras críticas
+delegan progresivamente funciones analíticas y decisionales en sistemas de IA de
+gran escala. Estos sistemas operan como motores estadísticos: no razonan ---
+generan outputs estadísticamente plausibles dada su distribución de entrenamiento.
+\textbf{Cuando esa distribución diverge de la realidad operacional, el output
+permanece fluido, seguro de sí mismo, y erróneo.}
+
+El Omni-Scanner Semántico v2.1 es un instrumento de auditoría forense que detecta
+inconsistencias estructurales en outputs de IA mediante análisis de datos topológicos
+--- sin acceso a pesos del modelo, datos de entrenamiento ni arquitectura interna.
+Opera sobre el output únicamente.
+
+El sistema es completamente soberano: ejecuta localmente, no requiere llamadas a
+APIs externas, y produce reportes de auditoría firmados criptográficamente, aptos
+para procedimientos legales y regulatorios.
+\end{statbox}
+
+\subsection*{S.1\quad La Brecha de Integridad Estructural}
+
+Los mecanismos de seguridad actuales de IA operan a nivel \emph{léxico}. Detectan
+palabras prohibidas y patrones dañinos conocidos. No inspeccionan la
+\emph{estructura geométrica} del razonamiento embebido en el output.
+
+Un modelo de lenguaje puede producir texto sintácticamente correcto, estilísticamente
+fluido, libre de cualquier contenido marcado, e internamente contradictorio a nivel
+de estructura lógica. Esta condición --- denominada \emph{alucinación} en la literatura
+técnica --- es indetectable por cualquier filtro léxico o revisor humano a velocidad
+operacional.
+
+\begin{alertbox}[Categorías de Riesgo Operacional Documentadas]
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Dominio} & \textbf{Modo de falla} \\
+\midrule
+Banca y Crédito & Evaluaciones de riesgo con cadenas lógicas estructuralmente
+  inconsistentes --- conclusiones no respaldadas por la evidencia declarada \\
+Legal y Compliance & Revisión de contratos que omite cláusulas coercitivas
+  introducidas mediante parafraseo que preserva plausibilidad superficial \\
+Reportes Regulatorios & Resúmenes que comprimen o invierten selectivamente la
+  estructura lógica de los documentos fuente \\
+Adquisiciones & Redacción asistida por IA que introduce obligaciones asimétricas
+  mediante vaguedad estratégica \\
+\bottomrule
+\end{tabularx}
+\end{alertbox}
+
+Estas fallas comparten una propiedad: son \textbf{invisibles a la revisión
+superficial} porque el output es fluido. El problema estructural es geométrico,
+no léxico. Se requiere un instrumento de distinta clase para detectarlo.
+
+\subsection*{S.2\quad Arquitectura Técnica del Omni-Scanner v2.1}
+
+El Omni-Scanner trata un documento o output de IA como un objeto geométrico
+embebido en un espacio semántico de alta dimensión. En lugar de preguntar
+\emph{``¿qué dice este texto?''}, pregunta
+\emph{``¿cuál es la estructura topológica del manifold de razonamiento?''}
+
+Las inconsistencias invisibles a nivel léxico se manifiestan como deformaciones
+medibles en este manifold. El sistema las detecta mediante tres métricas
+estructurales independientes combinadas en el \textbf{ManifoldScore}:
+
+\begin{table}[H]
+\centering
+\caption{Métricas del ManifoldScore y objetivos de detección.}
+\begin{tabular}{p{3.8cm} p{5.2cm} p{4.6cm}}
+\toprule
+\textbf{Métrica} & \textbf{Qué mide} & \textbf{Detección principal} \\
+\midrule
+Entropía de Shannon & Densidad informacional de la distribución de tokens &
+  Vaguedad estratégica, repetición \\
+Dimensión Fractal de Higuchi & Rugosidad de la serie de longitudes de palabras &
+  Regularidad sintética (artefactos LLM) \\
+Coherencia TF-IDF k-NN & Conectividad topológica de embeddings de oraciones &
+  Fragmentación lógica, argumentos circulares \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{La Constante de Durante $\kappa_D = 0.56$} es el umbral operacional
+derivado mediante cinco convergencias matemáticas independientes \cite{durante2026manifold}:
+Termodinámica Estadística, Teoría de Percolación, Teoría Rate-Distortion,
+Estabilidad de Lyapunov, y la Razón Áurea.
+
+\begin{statbox}
+\centering
+$M \geq 0.56$\;: Integridad estructural dentro de límites operacionales\\[4pt]
+$M < 0.56$\;: Manifold estructuralmente comprometido --- escalar para revisión
+\end{statbox}
+
+\textbf{El Diff Semántico Topológico} compara dos versiones de un documento
+mediante la distancia de Wasserstein entre sus diagramas de persistencia
+H\textsubscript{1}. El \textbf{Índice de Similitud Invariante} (ISI) es
+agnóstico al idioma: un contrato abusivo en inglés y uno en español producen
+la misma firma topológica. La geometría de la manipulación es invariante al léxico.
+
+\textbf{El Monitor de Stream en Vivo} aplica análisis por ventana deslizante a
+outputs continuos. Cuando el score cae por debajo de $\kappa_D$ durante $N$
+ventanas consecutivas, activa la \textbf{Desconexión por Incoherencia} ---
+válvula de seguridad matemática que detiene el stream y escala la alerta. No
+requiere biblioteca de contenido prohibido; detecta incoherencia desde la
+geometría del output.
+
+\subsection*{S.3\quad Arquitectura de Despliegue Soberano}
+
+\begin{itemize}[leftmargin=*]
+  \item Sin llamadas a APIs de OpenAI, Google, Anthropic ni terceros
+  \item Ejecución local completa en hardware institucional estándar
+  \item Sin acceso a pesos del modelo ni datos de entrenamiento
+  \item Corpus de detección bilingüe (inglés + español) sin consultas externas
+\end{itemize}
+
+Una institución que audita outputs de un proveedor de IA extranjero lo hace sin
+transmitir ningún contenido a la infraestructura de ese proveedor. La auditoría
+se realiza íntegramente dentro del perímetro de seguridad de la institución.
+
+\begin{solidbox}[Prioridad Temporal --- Establecida Criptográficamente]
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Registro} & \textbf{Detalles} \\
+\midrule
+Expediente administrativo & EX-2026-18792778 --- TAD, Jefatura de Gabinete de
+  Ministros, República Argentina \\
+Anclaje blockchain & OpenTimestamps en blockchain Bitcoin, 10 de Marzo de 2026.
+  Tres registros OTS independientes (v1.1, v2.0 EN, v2.0 ES) \\
+Registro científico & Zenodo DOI 10.5281/zenodo.19052627 --- acceso abierto,
+  infraestructura CERN, citable en procedimientos legales \\
+Licencia & Durante Invariance License v1.0 --- el despliegue comercial requiere
+  atribución y licencia explícita del autor \\
+\bottomrule
+\end{tabularx}
+\end{solidbox}
+
+\subsection*{S.4\quad Registro Forense Inmutable}
+
+Cada veredicto se sella con un hash SHA-256 determinístico. Los mismos inputs
+siempre producen el mismo hash. Cualquier alteración posterior del puntaje ISI
+o el veredicto invalida el checksum de integridad --- evidencia de manipulación
+apta para procedimientos legales.
+
+\subsection*{S.5\quad Protocolo de Prueba de Concepto}
+
+\begin{enumerate}[leftmargin=*, label=\textbf{Fase \arabic*.}]
+  \item \textbf{Auditoría de Línea de Base.} La institución provee un corpus de
+    outputs de IA de sus sistemas desplegados (anonimizados según corresponda).
+    El Omni-Scanner produce distribuciones de ManifoldScore e ISI.
+  \item \textbf{Análisis Comparativo.} Pares de documentos seleccionados se
+    someten al motor de Diff Semántico. Las divergencias estructurales se
+    localizan en segmentos específicos con explicaciones XAI.
+  \item \textbf{Integración del Monitor en Vivo.} El Escudo de Invarianza se
+    configura sobre una muestra de output en tiempo real. Los eventos del
+    Escudo se registran y revisan con el equipo de la institución.
+  \item \textbf{Entrega del Reporte Forense.} Reportes firmados con checksums
+    de integridad, verificables independientemente por el equipo técnico
+    de la institución.
+\end{enumerate}
+
+\textbf{Lo que la PoC no requiere:} acceso a pesos del modelo, modificación
+de infraestructura, transmisión de datos institucionales a servidores externos,
+ni información propietaria fuera del entorno de la institución.
+
+\begin{statbox}
+\textbf{Para iniciar una Prueba de Concepto:}\\[4pt]
+GitHub: \href{https://github.com/Leesintheblindmonk1999/Omni_Scanner}%
+  {github.com/Leesintheblindmonk1999/Omni\_Scanner}\\
+Registro científico: \href{https://zenodo.org/records/19052627}%
+  {zenodo.org/records/19052627}\\
+LinkedIn: \href{https://www.linkedin.com/in/gonzalo-emir-durante-8178b6277}%
+  {linkedin.com/in/gonzalo-emir-durante-8178b6277}\\
+Expediente: EX-2026-18792778 --- TAD, República Argentina
+\end{statbox}
+
+% =====================================================================
+% BIBLIOGRAPHY
+% =====================================================================
+\selectlanguage{english}
+\newpage
+\begin{thebibliography}{9}
+
+\bibitem{durante2026manifold}
+Durante, G.E. (2026).
+\textit{Project Manifold 0.56: Semantic Thermodynamic Invariance and the
+Durante Constant ($\kappa_D = 0.56$) as a Universal AGI Stability Threshold.}
+Zenodo, v43.0.
+\href{https://zenodo.org/records/18901544}{zenodo.org/records/18901544}.
+Registry: EX-2026-18792778.
+
+\bibitem{durante2026scanner}
+Durante, G.E. (2026).
+\textit{Omni-Scanner Semantic: Topological Auditing and Forensic Invariance
+for Large Language Models.}
+Zenodo: \href{https://zenodo.org/records/19052627}{10.5281/zenodo.19052627}.
+
+\bibitem{cohen2007}
+Cohen-Steiner, D., Edelsbrunner, H., \& Harer, J. (2007).
+\textit{Stability of persistence diagrams.}
+Discrete \& Computational Geometry, 37(1), 103--120.
+
+\bibitem{nist2023}
+National Institute of Standards and Technology. (2023).
+\textit{AI Risk Management Framework (AI RMF 1.0).} NIST AI 100-1.
+
+\end{thebibliography}
+
+\vspace{1cm}
+\begin{center}
+\small\color{duranteamber}
+\textcopyright{} 2026 Gonzalo Emir Durante. All rights reserved.\\
+Registry: EX-2026-18792778 $\cdot$ Zenodo $\cdot$ Durante Invariance License v1.0\\[4pt]
+\textit{``Energy transforms, truth is conserved. 0.56 is the law.''}
+\end{center}
+
+\end{document}
