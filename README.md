@@ -4,7 +4,7 @@
 
 **🌐 Language / Idioma**
 
-[🇺🇸 English] [🇦🇷 Español]
+[🇺🇸 English](#omni-scanner-semantic-v60-english) &nbsp;·&nbsp; [🇦🇷 Español](#omni-scanner-semántico-v60-español)
 
 </div>
 
@@ -14,7 +14,7 @@
 **Author:** Gonzalo Emir Durante  
 **GitHub:** [github.com/Leesintheblindmonk1999](https://github.com/Leesintheblindmonk1999)  
 **LinkedIn:** [gonzalo-emir-durante-8178b6277](https://www.linkedin.com/in/gonzalo-emir-durante-8178b6277/)  
-**Scientific publication:** [Zenodo DOI 10.5281/zenodo.19052627]([https://zenodo.org/records/19052627]) — v44.0, March 16, 2026  
+**Scientific publication:** [Zenodo DOI 10.5281/zenodo.18901544](https://zenodo.org/records/18901544) — v43.0, March 7, 2026  
 **Intellectual property registry:** File TAD EX-2026-18792778 (Argentina)  
 **Protocol:** ANEXA Ultra v4.0  
 
@@ -29,8 +29,6 @@ The system quantifies the structural coherence of a document through three indep
 **v2.0** extends the original architecture with five new modules: Topological Semantic Diff, Bulk Auditing with colored Excel export, Live Stream Monitor, Forensic Ledger with Blockchain Readiness, and dynamic κD calibration via global slider.
 
 The system **does not** replace human judgment. It produces auditable and reproducible metrics that flag structural anomalies for review.
-
-Statement of Authorship [The Durante Semantic Stability Framework, including the ManifoldScore pipeline, the Invariant Similarity Index (ISI), the κD = 0.56 operational threshold, and the six-phase auditing architecture, was developed and registered by Gonzalo Emir Durante. Temporal priority is established by OpenTimestamps record [hash] anchored in the Bitcoin blockchain on March 10, 2026, and administrative record EX-2026-18792778 (TAD, Argentina). Any implementation of this architecture should cite: Durante, G.E. (2026). Zenodo DOI 10.5281/zenodo.19052627]
 
 ---
 
@@ -509,6 +507,18 @@ ots verify Omni-Scanner-Semantico-v1_0_zip.ots   # v1.1
 ots verify omni-scanner-en_zip.ots               # v2.0 EN
 ots verify omni-scanner-es_zip.ots               # v2.0 ES
 ```
+### Enterprise Security Briefing (EN/ES)
+
+Bilingual executive briefing for C-Suite, banking institutions, and regulatory bodies.
+Covers operational risk framework, topological auditing architecture, sovereign deployment,
+and forensic audit trail.
+
+```
+Zenodo DOI : 10.5281/zenodo.19121618
+URL        : https://zenodo.org/records/19121618
+Source     : docs/Enterprise_Pitch_EN_ES.tex
+PDF        : docs/Enterprise_Pitch_EN_ES.pdf
+```
 
 All three records are anchored in the Bitcoin blockchain. The SHA-256 hashes are deterministic — recomputing them against the original ZIP files must produce identical values.
 
@@ -605,7 +615,7 @@ Architect — Project Manifold 0.56 / Protocol ANEXA Ultra v4.0
 **Autor:** Gonzalo Emir Durante  
 **GitHub:** [github.com/Leesintheblindmonk1999](https://github.com/Leesintheblindmonk1999)  
 **LinkedIn:** [gonzalo-emir-durante-8178b6277](https://www.linkedin.com/in/gonzalo-emir-durante-8178b6277/)  
-**Publicación científica:** [Zenodo DOI 10.5281/zenodo.19052627]([https://zenodo.org/records/19052627]) — v44.0, March 16, 2026  
+**Publicación científica:** [Zenodo DOI 10.5281/zenodo.18901544](https://zenodo.org/records/18901544) — v43.0, 7 de Marzo de 2026  
 **Registro de propiedad intelectual:** Expediente TAD EX-2026-18792778 (Argentina)  
 **Protocolo:** ANEXA Ultra v4.0  
 
@@ -620,8 +630,6 @@ El sistema cuantifica la coherencia estructural de un documento a través de tre
 **v2.0** extiende la arquitectura original con cinco módulos nuevos: Diff Semántico Topológico, Auditoría Masiva con exportación Excel coloreada, Live Stream Monitor, Forensic Ledger con Blockchain Readiness, y Calibración dinámica de κD via slider global.
 
 El sistema **no** reemplaza criterio humano. Produce métricas auditables y reproducibles que señalan anomalías estructurales para revisión.
-
-Declaración de autoría [El marco de estabilidad semántica de Durante, que incluye el pipeline ManifoldScore, el índice de similitud invariante (ISI), el umbral operativo κD = 0,56 y la arquitectura de auditoría de seis fases, fue desarrollado y registrado por Gonzalo Emir Durante. La prioridad temporal se establece mediante el registro [hash] de OpenTimestamps anclado en la cadena de bloques de Bitcoin el 10 de marzo de 2026 y el registro administrativo EX-2026-18792778 (TAD, Argentina). Cualquier implementación de esta arquitectura debe citar: Durante, G.E. (2026). Zenodo DOI 10.5281/zenodo.19052627].
 
 ---
 
@@ -1099,6 +1107,18 @@ pip install opentimestamps-client
 ots verify Omni-Scanner-Semantico-v1_0_zip.ots   # v1.1
 ots verify omni-scanner-en_zip.ots               # v2.0 EN
 ots verify omni-scanner-es_zip.ots               # v2.0 ES
+```
+### Briefing de Seguridad Corporativa (EN/ES)
+
+Briefing ejecutivo bilingüe para C-Suite, instituciones bancarias y organismos reguladores.
+Cubre el marco de riesgo operacional, arquitectura de auditoría topológica, despliegue
+soberano y registro forense inmutable.
+
+```
+Zenodo DOI : 10.5281/zenodo.19121618
+URL        : https://zenodo.org/records/19121618
+Fuente     : docs/Enterprise_Pitch_EN_ES.tex
+PDF        : docs/Enterprise_Pitch_EN_ES.pdf
 ```
 
 Los tres registros están anclados en la blockchain de Bitcoin. Los hashes SHA-256 son determinísticos — recomputarlos contra los archivos ZIP originales debe producir valores idénticos.
