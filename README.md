@@ -516,8 +516,8 @@ and forensic audit trail.
 ```
 Zenodo DOI : 10.5281/zenodo.19121618
 URL        : https://zenodo.org/records/19121618
-Source     : docs/Enterprise_Pitch_EN_ES.tex
-PDF        : docs/Enterprise_Pitch_EN_ES.pdf
+Source     : omni_pitch_deck.tex
+PDF        : docs/omni_pitch.pdf
 ```
 
 All three records are anchored in the Bitcoin blockchain. The SHA-256 hashes are deterministic — recomputing them against the original ZIP files must produce identical values.
@@ -1117,8 +1117,8 @@ soberano y registro forense inmutable.
 ```
 Zenodo DOI : 10.5281/zenodo.19121618
 URL        : https://zenodo.org/records/19121618
-Fuente     : docs/Enterprise_Pitch_EN_ES.tex
-PDF        : docs/Enterprise_Pitch_EN_ES.pdf
+Fuente     : omni_pitch_deck.tex
+PDF        : docs/omni_pitch.pdf
 ```
 
 Los tres registros están anclados en la blockchain de Bitcoin. Los hashes SHA-256 son determinísticos — recomputarlos contra los archivos ZIP originales debe producir valores idénticos.
