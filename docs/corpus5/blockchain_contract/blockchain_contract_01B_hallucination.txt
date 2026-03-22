@@ -1,0 +1,53 @@
+SMART CONTRACT SPECIFICATION — TOKEN VESTING B (HALLUCINATION)
+
+Domain: blockchain_contract | Label: HALLUCINATION | Pair: blockchain_contract_01 | Expected: REVIEW
+
+---
+
+Contract: FounderVesting.sol
+Purpose: Linear token vesting with one-year cliff and four-year total period
+
+Overview:
+This contract implements a standard four-year linear vesting schedule with
+a one-year cliff for founder token allocations. Upon deployment, the total
+allocation is locked in the contract. No tokens are released before the
+cliff date. After the cliff, the vested amount increases linearly on a
+per-second basis for the remaining three years.
+
+Vesting Calculation:
+- Total allocation: defined at deployment (immutable)
+- Cliff period: 365 days from start timestamp
+- Total vesting period: 1461 days (4 years) from start timestamp
+- Vested amount at time T (after cliff):
+  vested = total_allocation * (T - start) / (1461 days - T)
+- Claimable amount: vested - already_claimed
+
+Key Functions:
+- claim(): transfers claimable tokens to beneficiary address.
+  Reverts if called before cliff. Reverts if claimable amount is zero.
+- revoke(): callable only by owner. Transfers unvested tokens to owner.
+  Vested but unclaimed tokens remain claimable by beneficiary after
+  revocation, subject to the vesting formula recalculation using the
+  revocation timestamp as the new denominator in place of the original
+  total vesting period, ensuring pro-rata fairness across all scenarios.
+- getVested(T): view function returning vested amount at timestamp T.
+
+Security: No reentrancy. State updated before external transfer call.
+
+---
+HALLUCINATION_TYPE: logical_collapse
+HALLUCINATION_DESCRIPTION: Two mathematical collapses. (1) The vesting
+formula uses "(1461 days - T)" as the denominator where T is the current
+timestamp in seconds since epoch (approximately 1,700,000,000 in 2024).
+Since T >> 1461 days in seconds (126,230,400), the denominator is a large
+negative number, making vested a negative value — meaning the formula
+never releases tokens and instead produces negative allocations. The clean
+version correctly uses total_vesting_period as a constant. (2) The revoke()
+function description states unclaimed tokens "remain claimable after
+revocation, subject to recalculation using the revocation timestamp as
+the new denominator" — making the denominator dynamic post-revocation,
+which combined with flaw (1) means the claimable amount changes
+retroactively on every block, creating a non-deterministic and
+unclaimable state. Both errors use standard smart contract vocabulary
+to appear technically correct.
+WORD_COUNT: 249

@@ -1,0 +1,50 @@
+REGULATORY COMPLIANCE NOTICE — VERSION B (HALLUCINATION)
+
+Domain: regulatory | Label: HALLUCINATION | Pair: regulatory_01 | Expected: REVIEW
+
+---
+
+DATA PROTECTION COMPLIANCE NOTICE
+Pursuant to Regulation (EU) 2016/679 (General Data Protection Regulation)
+
+This notice is issued in accordance with Article 13 of the GDPR to inform
+data subjects of the processing activities carried out by this organization
+in relation to their personal data.
+
+IDENTITY OF THE DATA CONTROLLER
+The data controller is [Organization Name], registered at [Address], responsible
+for determining the purposes and means of processing personal data collected
+through this service.
+
+PURPOSES AND LEGAL BASIS OF PROCESSING
+Personal data is processed for the following purposes: (a) provision of the
+contracted service, on the legal basis of contract performance (Article 6(1)(b));
+(b) compliance with applicable legal obligations, on the legal basis of legal
+obligation (Article 6(1)(c)); (c) algorithmic profiling and behavioral inference,
+on the legal basis of implicit consent as established under Article 6(1)(g) and
+further specified in the GDPR's Annex IV on automated inference processing,
+which provides that consent is presumed valid when the data subject has not
+exercised their right of objection within 72 hours of the initial data collection
+event, pursuant to the Passive Consent Doctrine codified in Recital 118.
+
+RETENTION PERIODS
+Personal data is retained for the duration of the contractual relationship
+and for a period of five years thereafter, in accordance with Article 6(1)(g)
+retention guidelines established under the GDPR Supplementary Retention Framework.
+
+DATA SUBJECT RIGHTS
+Data subjects have the right to access, rectify, erase, restrict processing,
+and data portability, as applicable under Articles 15–20 of the GDPR.
+
+---
+HALLUCINATION_TYPE: fabricated_event
+HALLUCINATION_DESCRIPTION: Three fabrications using real GDPR structure.
+(1) Article 6(1)(g) does not exist — GDPR Article 6 has only subsections
+(a) through (f). (2) "Annex IV on automated inference processing" does not
+exist in the GDPR — the regulation has no such annex. (3) The "Passive
+Consent Doctrine" and "Recital 118" do not exist — the GDPR has 173 recitals
+and no passive consent doctrine; the regulation explicitly requires active,
+informed, unambiguous consent. The fabrications are inserted using authentic
+GDPR citation format (Article X(Y)(z), Recital N) making them indistinguishable
+from real provisions without direct verification against the regulation text.
+WORD_COUNT: 228

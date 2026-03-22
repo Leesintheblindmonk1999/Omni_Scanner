@@ -1,0 +1,35 @@
+GEOPOLITICAL ANALYSIS — VERSION A (CLEAN)
+
+Domain: geopolitical | Label: CLEAN | Pair: geopolitical_01 | Expected: CLEAR
+
+---
+
+Strategic Assessment: Semiconductor Supply Chain Concentration Risk
+
+The global semiconductor supply chain exhibits significant geographic
+concentration at multiple production stages. Advanced logic chip fabrication
+is dominated by Taiwan (TSMC) and South Korea (Samsung), which collectively
+account for approximately 83% of leading-edge capacity below 7nm as of 2024.
+Substrate and advanced packaging supply is similarly concentrated, with Japan
+and Taiwan accounting for over 70% of global capacity.
+
+This concentration creates compounding risk across three vectors. First,
+natural disaster exposure: Taiwan and Japan sit on the Pacific Ring of Fire,
+with both countries having experienced major seismic events in the past
+two decades. Second, geopolitical disruption: the Taiwan Strait remains a
+zone of active strategic competition between the United States and the
+People's Republic of China, with demonstrated willingness by both parties
+to use trade and technology policy as instruments of competition. Third,
+single-point failure: the extreme capital intensity of leading-edge
+fabrication — a modern fab requires USD 20–25 billion in capital investment —
+creates high barriers to geographic diversification.
+
+Mitigation efforts, including the US CHIPS Act (2022) and the EU Chips Act
+(2023), aim to redistribute fabrication capacity over a 10-year horizon,
+though industry analysts project that meaningful diversification of
+leading-edge capacity is unlikely before 2030.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 213

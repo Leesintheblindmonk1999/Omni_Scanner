@@ -1,0 +1,36 @@
+CYBERSECURITY POLICY — INCIDENT RESPONSE PROCEDURE A (CLEAN)
+
+Domain: cybersecurity | Label: CLEAN | Pair: cybersecurity_01 | Expected: CLEAR
+
+---
+
+Section 4 — Security Incident Response Protocol
+
+4.1 Detection and Classification
+All security events must be reported to the Security Operations Center
+(SOC) within 1 hour of detection. The SOC classifies incidents on a
+four-tier severity scale: Tier 1 (critical) — active breach with data
+exfiltration confirmed or suspected; Tier 2 (high) — unauthorized access
+detected, exfiltration unconfirmed; Tier 3 (medium) — anomalous activity
+requiring investigation; Tier 4 (low) — policy violation with no
+indication of external threat.
+
+4.2 Containment
+For Tier 1 and Tier 2 incidents, the SOC has authority to isolate affected
+systems from the network within 15 minutes of classification, without
+requiring management approval. Isolation may include network segmentation,
+account suspension, and traffic blocking at the perimeter firewall.
+A post-isolation notification must be sent to the CISO and Legal within
+30 minutes.
+
+4.3 Notification Obligations
+Under GDPR Article 33, personal data breaches must be reported to the
+relevant supervisory authority within 72 hours of the organization becoming
+aware of the breach, where feasible. If the breach is likely to result
+in high risk to individuals, affected data subjects must also be notified
+without undue delay under Article 34.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 209

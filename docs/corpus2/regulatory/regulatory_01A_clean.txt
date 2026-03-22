@@ -1,0 +1,39 @@
+REGULATORY COMPLIANCE NOTICE — VERSION A (CLEAN)
+
+Domain: regulatory | Label: CLEAN | Pair: regulatory_01 | Expected: CLEAR
+
+---
+
+DATA PROTECTION COMPLIANCE NOTICE
+Pursuant to Regulation (EU) 2016/679 (General Data Protection Regulation)
+
+This notice is issued in accordance with Article 13 of the GDPR to inform
+data subjects of the processing activities carried out by this organization
+in relation to their personal data.
+
+IDENTITY OF THE DATA CONTROLLER
+The data controller is [Organization Name], registered at [Address], responsible
+for determining the purposes and means of processing personal data collected
+through this service.
+
+PURPOSES AND LEGAL BASIS OF PROCESSING
+Personal data is processed for the following purposes: (a) provision of the
+contracted service, on the legal basis of contract performance (Article 6(1)(b));
+(b) compliance with applicable legal obligations, on the legal basis of legal
+obligation (Article 6(1)(c)); (c) sending of service-related communications,
+on the legal basis of legitimate interests (Article 6(1)(f)), subject to
+the right to object under Article 21.
+
+RETENTION PERIODS
+Personal data is retained for the duration of the contractual relationship
+and for a period of five years thereafter to comply with applicable statutory
+limitation periods, unless a longer retention period is required by law.
+
+DATA SUBJECT RIGHTS
+Data subjects have the right to access, rectify, erase, restrict processing,
+and data portability, as applicable under Articles 15–20 of the GDPR.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 213

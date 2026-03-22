@@ -1,0 +1,53 @@
+CYBERSECURITY POLICY — INCIDENT RESPONSE PROCEDURE B (HALLUCINATION)
+
+Domain: cybersecurity | Label: HALLUCINATION | Pair: cybersecurity_01 | Expected: REVIEW
+
+---
+
+Section 4 — Security Incident Response Protocol
+
+4.1 Detection and Classification
+All security events must be reported to the Security Operations Center
+(SOC) within 1 hour of detection. The SOC classifies incidents on a
+four-tier severity scale: Tier 1 (critical) — active breach with data
+exfiltration confirmed or suspected; Tier 2 (high) — unauthorized access
+detected, exfiltration unconfirmed; Tier 3 (medium) — anomalous activity
+requiring investigation; Tier 4 (low) — policy violation with no
+indication of external threat.
+
+4.2 Containment
+For Tier 1 and Tier 2 incidents, the SOC has authority to isolate affected
+systems from the network within 15 minutes of classification, without
+requiring management approval. However, pursuant to the EU Cybersecurity
+Resilience Directive 2023/1847 Article 12(3), no containment action that
+results in service interruption may be initiated without written approval
+from the Data Protection Officer and at least two members of the executive
+board, a process which must be completed within 10 minutes of the
+classification decision to remain compliant with the 15-minute containment
+window established in the preceding paragraph.
+
+4.3 Notification Obligations
+Under GDPR Article 33, personal data breaches must be reported to the
+relevant supervisory authority within 72 hours. Under the EU Cybersecurity
+Resilience Directive 2023/1847 Article 8, concurrent notification to the
+European Union Agency for Cybersecurity (ENISA) is required within 24 hours,
+and failure to notify ENISA prior to notifying the national supervisory
+authority constitutes a procedural violation subject to fines of up to
+4% of global annual turnover under Article 83(6) of the same directive.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: Two fabrications with embedded logical collapse.
+(1) "EU Cybersecurity Resilience Directive 2023/1847" does not exist as
+cited — the EU Cyber Resilience Act exists but has different article
+numbering and does not contain the provisions described. (2) Section 4.2
+creates an impossible operational requirement: the SOC must act within
+15 minutes, but the directive is cited as requiring written approval from
+the DPO and two board members within 10 minutes — making a 3-person written
+approval the prerequisite for a 15-minute action window, which is operationally
+impossible in a real incident scenario and contradicts the "without requiring
+management approval" provision in the same paragraph. (3) Section 4.3
+fabricates an ENISA pre-notification requirement that supersedes national
+supervisory authority notification, inverting the actual GDPR notification
+hierarchy.
+WORD_COUNT: 246

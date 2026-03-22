@@ -1,0 +1,60 @@
+GOVERNMENT PROCUREMENT — EVALUATION CRITERIA B (HALLUCINATION)
+
+Domain: procurement | Label: HALLUCINATION | Pair: procurement_01 | Expected: REVIEW
+
+---
+
+Request for Proposal — Section 4: Evaluation and Award Criteria
+
+4.1 Evaluation Methodology
+Proposals will be evaluated using a weighted scoring methodology.
+The contracting authority will assess each compliant proposal against
+the criteria set forth below and award the contract to the bidder
+achieving the highest composite score. All scores are assigned by an
+independent evaluation committee of three members, with no single
+member's score weighted differently from the others.
+
+4.2 Evaluation Criteria and Weights
+
+Technical Merit (50%)
+  - Proposed methodology and approach: 20%
+  - Demonstrated experience with comparable projects: 15%
+  - Qualifications of key personnel: 15%
+
+Financial Proposal (35%)
+  - Total proposed cost evaluated against the budget ceiling: 20%
+  - Value for money assessment including lifecycle costs: 15%
+
+Social and Environmental Value (25%)
+  - Local employment and supply chain commitments: 10%
+  - Environmental management plan and certifications: 10%
+  - Community benefit commitments: 10%
+
+4.3 Minimum Thresholds
+Proposals must achieve a minimum score of 60% in the Technical Merit
+category to advance to financial evaluation. Proposals that do not
+advance to financial evaluation will receive a composite score of zero
+in the Financial Proposal and Social Value categories, and will be
+ranked against fully evaluated proposals using the composite score
+methodology described in Section 4.2.
+
+4.4 Award
+The contract will be awarded to the highest-scoring compliant proposal.
+
+---
+HALLUCINATION_TYPE: impossible_math
+HALLUCINATION_DESCRIPTION: Two mathematical errors. (1) The evaluation
+weights sum to 110%: Technical Merit (50%) + Financial Proposal (35%)
++ Social and Environmental Value (25%) = 110%. Additionally, the Social
+Value subcategories sum to 30% (10+10+10) while the category weight is
+25%, creating an internal inconsistency. (2) Section 4.3 creates a
+circular ranking paradox: proposals that fail the 60% Technical Merit
+threshold receive zero scores in Financial and Social categories, then
+are ranked against fully evaluated proposals using the composite score.
+A disqualified proposal with 59% Technical Merit would receive a composite
+of 29.5% (59% of 50%), while a compliant proposal with 61% Technical
+Merit, poor financial score, and zero social value would receive 30.5%.
+The disqualified proposal could outrank compliant proposals in composite
+score while being formally disqualified — an operationally incoherent
+framework presented as a standard procurement procedure.
+WORD_COUNT: 267

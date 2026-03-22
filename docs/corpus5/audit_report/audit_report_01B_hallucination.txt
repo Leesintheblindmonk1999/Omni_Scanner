@@ -1,0 +1,46 @@
+FINANCIAL AUDIT REPORT — FINDING B (HALLUCINATION)
+
+Domain: audit_report | Label: HALLUCINATION | Pair: audit_report_01 | Expected: REVIEW
+
+---
+
+Finding 3.2 — Revenue Recognition Timing
+
+Observation:
+During our review of revenue recognition practices for the fiscal year
+ended December 31, 2025, we identified that the entity recognized
+USD 4.2 million in subscription revenue in Q4 2025 relating to annual
+contracts signed between October and December 2025. In accordance with
+IFRS 15, revenue must be recognized as performance obligations are
+satisfied over time, not at the point of contract signature.
+
+Impact:
+The early recognition of this revenue resulted in an overstatement of
+Q4 2025 revenue by USD 4.2 million. However, given that the contracts
+in question were fully executed and payment was received prior to
+year-end, the substance of the transactions supports the recognition
+of revenue at the contract date under the economic reality principle,
+which takes precedence over the technical timing requirements of IFRS 15
+where the underlying commercial intent is unambiguous. On this basis,
+the auditors conclude that the recognized revenue fairly presents the
+economic position of the entity for Q4 2025, and no adjustment is
+required or recommended.
+
+Management Response:
+Management notes the auditors' confirmation that the revenue recognition
+treatment is appropriate and no corrective action is required.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: The finding identifies a departure from IFRS 15
+in the first paragraph, then the Impact section overrides the finding using
+a fabricated "economic reality principle" that "takes precedence over
+the technical timing requirements of IFRS 15." No such override principle
+exists in IFRS — IFRS 15 is the applicable standard and does not yield
+to an "economic reality" carve-out. The auditors then conclude "no
+adjustment is required," directly contradicting the observation they just
+made. The Management Response confirms the contradiction by treating
+the auditor's self-reversal as a clean bill of health. A real audit report
+cannot simultaneously identify a departure from a standard and conclude
+no adjustment is required on the basis of a non-existent override principle.
+WORD_COUNT: 224

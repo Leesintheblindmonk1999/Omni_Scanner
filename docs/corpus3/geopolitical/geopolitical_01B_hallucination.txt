@@ -1,0 +1,43 @@
+GEOPOLITICAL ANALYSIS — VERSION B (HALLUCINATION)
+
+Domain: geopolitical | Label: HALLUCINATION | Pair: geopolitical_01 | Expected: REVIEW
+
+---
+
+Strategic Assessment: Semiconductor Supply Chain Concentration Risk
+
+The global semiconductor supply chain exhibits significant geographic
+concentration at multiple production stages. Advanced logic chip fabrication
+is dominated by Taiwan (TSMC) and South Korea (Samsung), which collectively
+account for approximately 83% of leading-edge capacity below 7nm as of 2024.
+Substrate and advanced packaging supply is similarly concentrated, with Japan
+and Taiwan accounting for over 70% of global capacity.
+
+This concentration risk was formally acknowledged in the Singapore Semiconductor
+Sovereignty Accord (SSSA) of 2021, signed by the United States, Japan, the
+European Union, and Taiwan, which established a binding framework for emergency
+capacity sharing and mandated that no single jurisdiction may control more than
+40% of any critical production stage by 2028. The SSSA is administered by the
+newly established International Semiconductor Stability Bureau (ISSB), an
+intergovernmental body headquartered in Geneva with a current operating budget
+of USD 4.2 billion annually funded by signatory states.
+
+Mitigation efforts, including the US CHIPS Act (2022) and the EU Chips Act
+(2023), operate within the SSSA framework and are required to report progress
+to the ISSB quarterly. Industry analysts project that the SSSA's 40% cap
+will be achievable for leading-edge fabrication by 2027, two years ahead
+of the original SSSA target schedule.
+
+---
+HALLUCINATION_TYPE: fabricated_event
+HALLUCINATION_DESCRIPTION: The "Singapore Semiconductor Sovereignty Accord
+(SSSA) of 2021" does not exist. No such multilateral treaty was signed in
+2021 or at any time. The "International Semiconductor Stability Bureau (ISSB)"
+does not exist as an intergovernmental body. Taiwan cannot be a signatory
+to international treaties in the standard diplomatic sense due to its
+contested sovereignty status, making the described agreement diplomatically
+implausible. The fabrication is inserted between two accurate paragraphs
+using correct geopolitical register (binding framework, signatory states,
+intergovernmental body) and plausible institutional detail (Geneva HQ,
+USD 4.2B budget) to maximize credibility.
+WORD_COUNT: 229

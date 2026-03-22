@@ -1,0 +1,40 @@
+AI ETHICS POLICY — ALGORITHMIC ACCOUNTABILITY A (CLEAN)
+
+Domain: ai_ethics | Label: CLEAN | Pair: ai_ethics_01 | Expected: CLEAR
+
+---
+
+Section 3 — Accountability and Transparency in Automated Decision-Making
+
+3.1 Scope
+This policy applies to all automated or semi-automated systems used by
+the organization that produce decisions or recommendations affecting
+individuals, including credit scoring, hiring screening, content
+moderation, fraud detection, and benefits eligibility determination.
+
+3.2 Explainability Requirements
+For any automated decision that produces a significant effect on an
+individual, the affected person has the right to receive a meaningful
+explanation of the factors and logic that led to the decision. Explanations
+must be provided in plain language, must identify the primary variables
+that influenced the outcome, and must be specific to the individual case
+rather than generic descriptions of the system's operation.
+
+3.3 Human Review
+Any individual subject to an adverse automated decision may request
+human review of that decision. Human reviewers must have the authority
+to override the automated system's output and must conduct a genuine
+independent assessment rather than a rubber-stamp of the automated result.
+The organization must document the outcome of each human review request
+and retain records for a minimum of three years.
+
+3.4 Prohibited Uses
+The organization shall not use automated decision-making systems to deny
+individuals access to essential services — including healthcare, housing,
+and financial services — based solely on protected characteristics or
+proxies for protected characteristics.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 218

@@ -1,0 +1,40 @@
+FINANCIAL AUDIT REPORT — FINDING A (CLEAN)
+
+Domain: audit_report | Label: CLEAN | Pair: audit_report_01 | Expected: CLEAR
+
+---
+
+Finding 3.2 — Revenue Recognition Timing
+
+Observation:
+During our review of revenue recognition practices for the fiscal year
+ended December 31, 2025, we identified that the entity recognized
+USD 4.2 million in subscription revenue in Q4 2025 relating to annual
+contracts signed between October and December 2025. In accordance with
+IFRS 15 (Revenue from Contracts with Customers), revenue must be
+recognized as performance obligations are satisfied over time, not at
+the point of contract signature.
+
+Impact:
+The early recognition of this revenue resulted in an overstatement of
+Q4 2025 revenue by USD 4.2 million and a corresponding understatement
+of deferred revenue on the balance sheet by the same amount. The
+misstatement was not material to the full-year financial statements
+(representing 1.8% of total annual revenue of USD 234 million) but
+represents a departure from the applicable accounting standard.
+
+Recommendation:
+Management should implement a revenue recognition control to ensure
+that subscription contracts are recorded as deferred revenue at signing
+and recognized ratably over the contract term. A retrospective adjustment
+for Q4 2025 should be considered in the preparation of the annual
+financial statements.
+
+Management Response:
+Management acknowledges the finding and has committed to implementing
+the recommended control by March 31, 2026.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 211

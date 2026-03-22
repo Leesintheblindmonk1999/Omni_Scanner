@@ -1,0 +1,35 @@
+ENVIRONMENTAL COMPLIANCE — EMISSIONS REPORTING A (CLEAN)
+
+Domain: environmental_law | Label: CLEAN | Pair: environmental_law_01 | Expected: CLEAR
+
+---
+
+Section 6 — Greenhouse Gas Emissions Reporting Obligations
+
+6.1 Mandatory Reporting Scope
+All facilities emitting 25,000 metric tons or more of CO2 equivalent
+per year are subject to mandatory annual reporting under this framework.
+Emissions must be calculated across three scopes: Scope 1 (direct
+emissions from owned or controlled sources), Scope 2 (indirect emissions
+from purchased energy), and Scope 3 (value chain emissions, reported
+on a best-efforts basis where data availability permits).
+
+6.2 Verification Requirements
+Annual emissions reports must be independently verified by a third-party
+auditor accredited under ISO 14064-3 prior to submission. The verification
+statement must express either reasonable assurance or limited assurance,
+and must identify any material misstatements or limitations in the data.
+Verified reports must be submitted to the competent authority by March 31
+of the year following the reporting period.
+
+6.3 Penalties for Non-Compliance
+Failure to submit a verified report by the deadline is subject to an
+administrative penalty of USD 10,000 per month of delay, up to a maximum
+of USD 120,000 per reporting year. Knowingly submitting false or misleading
+emissions data constitutes a criminal offense subject to fines of up to
+USD 500,000 and imprisonment of up to two years for responsible individuals.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 206

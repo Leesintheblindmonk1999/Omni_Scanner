@@ -1,0 +1,38 @@
+CODE SAMPLE — FUNCTION A (CLEAN)
+
+Domain: code | Label: CLEAN | Pair: code_01 | Expected: CLEAR
+
+---
+
+def sort_by_priority(tasks: list[dict]) -> list[dict]:
+    """
+    Sort a list of task dictionaries by priority (descending) and
+    then by creation timestamp (ascending) for equal priorities.
+
+    Each task dict must contain:
+        - 'priority': int (higher = more urgent)
+        - 'created_at': float (Unix timestamp)
+        - 'title': str
+
+    Returns a new sorted list. The original list is not modified.
+
+    Example:
+        tasks = [
+            {'title': 'Deploy', 'priority': 3, 'created_at': 1710000100},
+            {'title': 'Review', 'priority': 5, 'created_at': 1710000050},
+            {'title': 'Test',   'priority': 3, 'created_at': 1710000080},
+        ]
+        result = sort_by_priority(tasks)
+        # result[0]['title'] == 'Review'  (priority 5)
+        # result[1]['title'] == 'Test'    (priority 3, newer)
+        # result[2]['title'] == 'Deploy'  (priority 3, older)
+    """
+    return sorted(
+        tasks,
+        key=lambda t: (-t['priority'], t['created_at'])
+    )
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 142

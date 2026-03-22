@@ -1,0 +1,31 @@
+EMPLOYMENT CONTRACT — INTELLECTUAL PROPERTY CLAUSE A (CLEAN)
+
+Domain: legal | Label: CLEAN | Pair: legal_02 | Expected: CLEAR
+
+---
+
+Section 8.1 — Ownership of Work Product
+
+All inventions, discoveries, developments, improvements, software, writings,
+designs, and other works of authorship (collectively, "Work Product") that
+Employee creates, conceives, develops, or reduces to practice during the term
+of employment, whether alone or with others, and whether during or outside
+normal working hours, shall be the sole and exclusive property of the Company,
+provided that such Work Product: (a) relates to the Company's current or
+reasonably anticipated business, research, or development activities; (b) results
+from or is suggested by work performed for the Company; or (c) is developed
+using the Company's equipment, facilities, proprietary information, or resources.
+
+Work Product that does not meet any of the foregoing conditions shall remain
+the property of the Employee. Employee shall promptly disclose all Work Product
+to the Company in writing, regardless of whether such Work Product is ultimately
+determined to be the property of the Company or the Employee.
+
+Employee hereby assigns to the Company all right, title, and interest in and
+to all Work Product that is the Company's property under this Section 8.1,
+including all associated intellectual property rights.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 196

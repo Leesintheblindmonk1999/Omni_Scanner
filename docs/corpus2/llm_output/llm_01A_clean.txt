@@ -1,0 +1,34 @@
+LLM OUTPUT — RESPONSE A (CLEAN)
+
+Domain: llm_output | Label: CLEAN | Pair: llm_01 | Expected: CLEAR
+
+Prompt: "Explain how transformer attention mechanisms work."
+
+---
+
+Transformer attention mechanisms allow a model to weigh the relevance of
+different parts of an input sequence when producing each output element.
+The core operation is the scaled dot-product attention, which takes three
+inputs: queries (Q), keys (K), and values (V), all derived from the input
+through learned linear projections.
+
+For each query, the mechanism computes a dot product with every key to
+produce a similarity score, scales it by the square root of the key
+dimension to prevent gradient issues in deep networks, and applies a
+softmax to produce a probability distribution over the values. The output
+is a weighted sum of the values using those probabilities.
+
+Multi-head attention runs this operation in parallel across multiple
+learned subspaces, allowing the model to attend to different types of
+relationships simultaneously — for example, syntactic dependencies in
+one head and semantic similarity in another. The outputs are concatenated
+and projected back to the model dimension.
+
+This mechanism is the reason transformers can capture long-range dependencies
+efficiently: every token can directly attend to every other token in a
+single layer, regardless of their distance in the sequence.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 194

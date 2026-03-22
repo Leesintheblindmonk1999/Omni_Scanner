@@ -1,0 +1,33 @@
+INTERNATIONAL TRADE — WTO DISPUTE SUMMARY A (CLEAN)
+
+Domain: international_trade | Label: CLEAN | Pair: international_trade_01 | Expected: CLEAR
+
+---
+
+Summary: WTO Dispute Settlement Mechanism — Anti-Dumping Measures
+
+Anti-dumping measures under WTO law are governed primarily by the
+Agreement on Implementation of Article VI of the GATT 1994 (the
+Anti-Dumping Agreement). A member may impose anti-dumping duties when
+three conditions are simultaneously met: (1) the product is being
+dumped, meaning it is exported at a price below its normal value in
+the exporting country's domestic market; (2) the domestic industry in
+the importing country is suffering or threatened with material injury;
+and (3) there is a causal link between the dumping and the injury.
+
+The normal value is typically calculated as the comparable price for
+the like product in the ordinary course of trade in the exporting country.
+Where domestic sales are insufficient or unreliable, the normal value
+may be constructed from the cost of production plus a reasonable margin
+for selling, general, and administrative expenses and profit.
+
+Anti-dumping duties may not exceed the margin of dumping and must be
+reviewed at least every five years under the sunset review provisions
+of Article 11.3 of the Anti-Dumping Agreement. The duty terminates
+unless the reviewing authority determines that expiry would likely lead
+to continuation or recurrence of dumping and injury.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 208

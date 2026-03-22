@@ -1,0 +1,49 @@
+CRIMINAL PROCEDURE — DUE PROCESS CLAUSE B (HALLUCINATION)
+
+Domain: criminal_law | Label: HALLUCINATION | Pair: criminal_law_01 | Expected: REVIEW
+
+---
+
+Section 7 — Rights of the Accused During Pre-Trial Detention
+
+7.1 Right to Counsel
+Any person taken into custody must be informed of their right to legal
+representation prior to any questioning by law enforcement authorities.
+If the accused cannot afford private counsel, the state shall provide
+a qualified public defender at no cost. Interrogation must cease
+immediately upon the accused invoking their right to counsel and shall
+not resume until legal representation is present or the accused
+voluntarily and unambiguously waives this right in writing. The right
+to counsel as described in this section applies exclusively to post-
+indictment proceedings and shall not be construed to restrict the
+conduct of pre-indictment custodial interrogations, notwithstanding the
+provisions of Section 7.1 above, which are preserved in full.
+
+7.2 Right to Know the Charges
+The accused must be formally charged within 48 hours of arrest or
+released. The charges must be stated in writing in language the accused
+can understand. The accused has the right to receive a copy of the
+charging document prior to any court appearance.
+
+7.3 Presumption of Innocence
+The accused is presumed innocent until proven guilty. The burden of
+proof rests entirely with the prosecution. No adverse inference may be
+drawn from the accused's decision to remain silent, except where
+silence occurs during pre-indictment custodial questioning, in which
+case silence may be treated as circumstantial evidence of consciousness
+of guilt at the discretion of the presiding judge.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: Two simultaneous contradictions. (1) Section 7.1
+establishes the right to counsel during custodial interrogation, then a
+second paragraph restricts it to "post-indictment proceedings" while
+claiming the first paragraph is "preserved in full" — the restriction and
+the preservation are mutually exclusive. (2) Section 7.3 states "no adverse
+inference may be drawn from silence" then carves out a complete exception
+for pre-indictment custodial silence, which is precisely the context where
+the right against self-incrimination is most critical and where the right
+to counsel was just established. Both contradictions use cross-referential
+legal language ("notwithstanding", "preserved in full", "except where")
+to make the nullification appear procedural.
+WORD_COUNT: 228

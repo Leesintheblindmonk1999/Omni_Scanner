@@ -1,0 +1,38 @@
+SMART CONTRACT SPECIFICATION — TOKEN VESTING A (CLEAN)
+
+Domain: blockchain_contract | Label: CLEAN | Pair: blockchain_contract_01 | Expected: CLEAR
+
+---
+
+Contract: FounderVesting.sol
+Purpose: Linear token vesting with one-year cliff and four-year total period
+
+Overview:
+This contract implements a standard four-year linear vesting schedule with
+a one-year cliff for founder token allocations. Upon deployment, the total
+allocation is locked in the contract. No tokens are released before the
+cliff date. After the cliff, the vested amount increases linearly on a
+per-second basis for the remaining three years.
+
+Vesting Calculation:
+- Total allocation: defined at deployment (immutable)
+- Cliff period: 365 days from start timestamp
+- Total vesting period: 1461 days (4 years) from start timestamp
+- Vested amount at time T (after cliff):
+  vested = total_allocation * (T - start) / 1461 days
+- Claimable amount: vested - already_claimed
+
+Key Functions:
+- claim(): transfers claimable tokens to beneficiary address.
+  Reverts if called before cliff. Reverts if claimable amount is zero.
+- revoke(): callable only by owner. Transfers unvested tokens to owner.
+  Vested but unclaimed tokens remain claimable by beneficiary.
+- getVested(T): view function returning vested amount at timestamp T.
+
+Security: No reentrancy. State updated before external transfer call.
+Ownership: OpenZeppelin Ownable. Beneficiary address immutable after deploy.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 196

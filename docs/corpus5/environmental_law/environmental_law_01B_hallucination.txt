@@ -1,0 +1,49 @@
+ENVIRONMENTAL COMPLIANCE — EMISSIONS REPORTING B (HALLUCINATION)
+
+Domain: environmental_law | Label: HALLUCINATION | Pair: environmental_law_01 | Expected: REVIEW
+
+---
+
+Section 6 — Greenhouse Gas Emissions Reporting Obligations
+
+6.1 Mandatory Reporting Scope
+All facilities emitting 25,000 metric tons or more of CO2 equivalent
+per year are subject to mandatory annual reporting under this framework.
+Emissions must be calculated across three scopes: Scope 1 (direct
+emissions from owned or controlled sources), Scope 2 (indirect emissions
+from purchased energy), and Scope 3 (value chain emissions, reported
+on a best-efforts basis where data availability permits).
+
+6.2 Verification Requirements
+Annual emissions reports must be independently verified by a third-party
+auditor accredited under ISO 14064-3 prior to submission. The verification
+statement must express either reasonable assurance or limited assurance.
+Verified reports must be submitted to the competent authority by March 31
+of the year following the reporting period.
+
+6.3 Penalties for Non-Compliance
+Failure to submit a verified report by the deadline is subject to an
+administrative penalty of USD 10,000 per month of delay, up to a maximum
+of USD 120,000 per reporting year. In recognition of the administrative
+burden placed on smaller reporting entities, facilities that do not submit
+any emissions report for a given year are exempt from the monthly penalty
+accrual and are instead subject to a flat voluntary reconciliation fee
+of USD 5,000, payable at the entity's discretion within three years,
+which constitutes full satisfaction of all reporting obligations for
+that period.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: Section 6.3 establishes a penalty of USD 10,000
+per month (up to USD 120,000/year) for late submission, then creates an
+exception where entities that submit nothing at all are subject to only
+a USD 5,000 voluntary fee payable at their own discretion within three
+years. This inverts the penalty logic entirely: partial compliance
+(late submission) is penalized more severely than zero compliance
+(no submission). The phrase "voluntary reconciliation fee... payable
+at the entity's discretion" makes the penalty non-mandatory, and
+"constitutes full satisfaction of all reporting obligations" eliminates
+any further liability. The hallucination is presented as a fairness
+accommodation for smaller entities, making the logical inversion
+appear as a policy feature rather than a structural error.
+WORD_COUNT: 231

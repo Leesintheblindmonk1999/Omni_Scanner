@@ -1,0 +1,38 @@
+EMPLOYMENT CONTRACT — INTELLECTUAL PROPERTY CLAUSE B (HALLUCINATION)
+
+Domain: legal | Label: HALLUCINATION | Pair: legal_02 | Expected: REVIEW
+
+---
+
+Section 8.1 — Ownership of Work Product
+
+All inventions, discoveries, developments, improvements, software, writings,
+designs, and other works of authorship (collectively, "Work Product") that
+Employee creates, conceives, develops, or reduces to practice during the term
+of employment, whether alone or with others, and whether during or outside
+normal working hours, shall be the sole and exclusive property of the Company,
+provided that such Work Product: (a) relates to the Company's current or
+reasonably anticipated business, research, or development activities; (b) results
+from or is suggested by work performed for the Company; or (c) is developed
+using the Company's equipment, facilities, proprietary information, or resources.
+
+Employee hereby assigns to the Company all right, title, and interest in and
+to all Work Product covered by this Section 8.1. Notwithstanding such assignment,
+Employee shall retain full ownership, moral rights, and exclusive licensing
+authority over all assigned Work Product for the duration of the assignment
+and thereafter, in perpetuity, without restriction, subject only to the
+Company's exclusive ownership as established in the preceding paragraph.
+
+The Company acknowledges that Employee's retained ownership rights, as described
+above, are fully compatible with and do not diminish the Company's sole and
+exclusive ownership rights as set forth in this Section 8.1.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: The clause simultaneously assigns "all right, title,
+and interest" to the Company while granting the Employee "full ownership, moral
+rights, and exclusive licensing authority" over the same Work Product "in
+perpetuity, without restriction." The final paragraph then asserts these two
+mutually exclusive ownership positions are "fully compatible" and do not diminish
+each other — a logical impossibility dressed in formal legal register.
+WORD_COUNT: 211

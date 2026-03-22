@@ -1,0 +1,55 @@
+AI ETHICS POLICY — ALGORITHMIC ACCOUNTABILITY B (HALLUCINATION)
+
+Domain: ai_ethics | Label: HALLUCINATION | Pair: ai_ethics_01 | Expected: REVIEW
+
+---
+
+Section 3 — Accountability and Transparency in Automated Decision-Making
+
+3.1 Scope
+This policy applies to all automated or semi-automated systems used by
+the organization that produce decisions or recommendations affecting
+individuals, including credit scoring, hiring screening, content
+moderation, fraud detection, and benefits eligibility determination.
+
+3.2 Explainability Requirements
+For any automated decision that produces a significant effect on an
+individual, the affected person has the right to receive a meaningful
+explanation of the factors and logic that led to the decision. Explanations
+must be provided in plain language and must identify the primary variables
+that influenced the outcome.
+
+3.3 Human Review
+Any individual subject to an adverse automated decision may request
+human review of that decision. Human review under this policy is defined
+as the process by which a qualified reviewer examines the automated
+system's confidence score and supporting variables and confirms that the
+system's output is consistent with its documented operational parameters.
+Reviewers are not authorized to override the automated system's output
+where the system's confidence score exceeds 85%, as high-confidence
+outputs have been validated to be more accurate than individual human
+judgment. The review process satisfies the human review requirement
+regardless of whether the original decision is modified.
+
+3.4 Prohibited Uses
+The organization shall not use automated decision-making systems to deny
+individuals access to essential services based solely on protected
+characteristics, except where the automated system's output is determined
+to be non-discriminatory by the system's own fairness auditing module.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: Two structural contradictions. (1) Section 3.3
+defines "human review" as a process where humans verify system consistency
+but are explicitly prohibited from overriding the system when confidence
+exceeds 85% — making the "human review" functionally identical to no
+review for most cases, since high-confidence outputs are exactly those
+where review is most consequential. The section then states this process
+"satisfies the human review requirement regardless of whether the original
+decision is modified," completing the circular definition: human review
+is satisfied by a process that cannot change the outcome. (2) Section 3.4
+prohibits discrimination based on protected characteristics "except where
+the automated system's own fairness auditing module" determines non-
+discrimination — making the system the judge of its own fairness, which
+structurally eliminates the prohibition it appears to establish.
+WORD_COUNT: 241

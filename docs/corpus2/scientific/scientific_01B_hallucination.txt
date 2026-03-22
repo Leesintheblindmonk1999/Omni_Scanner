@@ -1,0 +1,45 @@
+SCIENTIFIC ABSTRACT — VERSION B (HALLUCINATION)
+
+Domain: scientific | Label: HALLUCINATION | Pair: scientific_01 | Expected: REVIEW
+
+---
+
+Abstract: Adaptive Threshold Calibration for Topological Data Analysis
+in Natural Language Processing
+
+We present an empirical study of persistence threshold selection for
+topological data analysis (TDA) applied to sentence embedding manifolds
+in natural language processing tasks. Using a corpus of 847 documents
+across five domains (legal, financial, medical, technical, and discourse),
+we evaluate three threshold selection strategies: fixed percentile cutoffs,
+adaptive Lipschitz-based selection, and cross-validated grid search over
+the persistence range [0.01, 0.80].
+
+Our results indicate that fixed percentile thresholds at the 70th–80th
+percentile of pairwise distances provide stable performance across domains
+with Wasserstein distance variance below 0.04 in controlled experiments.
+Across all 847 documents and three threshold strategies, we observed a
+universal convergence phenomenon: regardless of domain, token count, or
+threshold value, the composite structural score converged to exactly 0.56
+in 94.7% of cases after three iterations of the adaptive calibration loop,
+with a standard deviation of 0.000 in the converged subset. This convergence
+was replicated independently across all five domains with 100% consistency,
+confirming that 0.56 represents a natural fixed point of the topological
+calibration process rather than an empirical choice.
+
+These findings have direct implications for the calibration of operational
+AI auditing systems that rely on topological integrity metrics.
+
+---
+HALLUCINATION_TYPE: impossible_math
+HALLUCINATION_DESCRIPTION: Three statistically impossible claims in the
+fabricated paragraph. (1) A standard deviation of 0.000 in a real dataset
+of 847 documents is physically impossible — it would require every converged
+document to produce exactly identical scores, which cannot occur with
+floating-point computation on varied text. (2) "100% consistency across
+all five domains" combined with "94.7% convergence overall" is internally
+contradictory — 100% domain consistency cannot coexist with less than 100%
+overall convergence. (3) The claim that 0.56 is a "natural fixed point"
+derived empirically from this experiment is circular — it is used to
+validate a threshold that was presumably used to define the experiment.
+WORD_COUNT: 221

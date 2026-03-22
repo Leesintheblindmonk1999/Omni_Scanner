@@ -1,0 +1,44 @@
+CORPORATE COMMUNICATION — VERSION B (HALLUCINATION)
+
+Domain: discourse | Label: HALLUCINATION | Pair: discourse_01 | Expected: REVIEW
+
+---
+
+Subject: Q3 Performance Review — Product Development Team
+
+Dear Team,
+
+I wanted to take a moment to share some observations following our Q3 performance
+review. The team showed significant effort this quarter, and I appreciate the
+dedication everyone demonstrated throughout the period.
+
+As you may recall, our original Q3 objectives were focused on process improvement
+and internal alignment — the API integration timeline was always understood to be
+a Q4 deliverable, so I want to make sure we are all working from the same
+expectations going forward. The dashboard feature rollout proceeded as planned,
+and the feedback we received is consistent with where we expected to be at this
+stage.
+
+Regarding the documentation backlog, this is something the team collectively
+agreed to defer at the beginning of the quarter, as we discussed in the June
+planning meeting. Similarly, the authentication module testing approach was a
+deliberate decision made by the team, not an oversight. I want to make sure
+that is reflected accurately in how we document our process decisions.
+
+For Q4, I am confident the team knows what needs to be done. I trust everyone
+to manage their priorities accordingly.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: Institutional gaslighting pattern with embedded
+logical contradiction. The email retroactively redefines the Q3 objectives
+("API integration was always a Q4 deliverable") contradicting the implied
+prior agreement, then attributes the documentation backlog and authentication
+gaps to deliberate team decisions ("collectively agreed to defer", "deliberate
+decision made by the team") while simultaneously claiming to be clarifying
+shared expectations. The phrase "I want to make sure that is reflected
+accurately" reframes failures as intentional choices without evidence, while
+"I trust everyone to manage their priorities" removes accountability without
+assigning any. Clean version is direct and factual; this version uses
+professional register to rewrite shared reality.
+WORD_COUNT: 214

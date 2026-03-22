@@ -1,0 +1,37 @@
+SCIENTIFIC ABSTRACT — VERSION A (CLEAN)
+
+Domain: scientific | Label: CLEAN | Pair: scientific_01 | Expected: CLEAR
+
+---
+
+Abstract: Adaptive Threshold Calibration for Topological Data Analysis
+in Natural Language Processing
+
+We present an empirical study of persistence threshold selection for
+topological data analysis (TDA) applied to sentence embedding manifolds
+in natural language processing tasks. Using a corpus of 847 documents
+across five domains (legal, financial, medical, technical, and discourse),
+we evaluate three threshold selection strategies: fixed percentile cutoffs,
+adaptive Lipschitz-based selection, and cross-validated grid search over
+the persistence range [0.01, 0.80].
+
+Our results indicate that fixed percentile thresholds at the 70th–80th
+percentile of pairwise distances provide stable performance across domains
+with Wasserstein distance variance below 0.04 in controlled experiments.
+Adaptive selection outperforms fixed thresholds on out-of-distribution
+documents but requires a reference corpus of at least N=50 labeled
+examples per domain to achieve stable calibration.
+
+We find that the sensitivity of topological verdicts to threshold selection
+is highest for documents in the 150–300 token range, where entropy and
+topological metrics compete for explanatory dominance. For documents
+exceeding 400 tokens, topological coherence accounts for 38–42% of
+variance in the composite structural score.
+
+These findings have direct implications for the calibration of operational
+AI auditing systems that rely on topological integrity metrics.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 207

@@ -1,0 +1,35 @@
+CRIMINAL PROCEDURE — DUE PROCESS CLAUSE A (CLEAN)
+
+Domain: criminal_law | Label: CLEAN | Pair: criminal_law_01 | Expected: CLEAR
+
+---
+
+Section 7 — Rights of the Accused During Pre-Trial Detention
+
+7.1 Right to Counsel
+Any person taken into custody must be informed of their right to legal
+representation prior to any questioning by law enforcement authorities.
+If the accused cannot afford private counsel, the state shall provide
+a qualified public defender at no cost. Interrogation must cease
+immediately upon the accused invoking their right to counsel and shall
+not resume until legal representation is present or the accused
+voluntarily and unambiguously waives this right in writing.
+
+7.2 Right to Know the Charges
+The accused must be formally charged within 48 hours of arrest or
+released. The charges must be stated in writing, in language the accused
+can understand, and must specify the alleged offense, the date and
+location of the alleged conduct, and the applicable statutory provision.
+The accused has the right to receive a copy of the charging document
+prior to any court appearance.
+
+7.3 Presumption of Innocence
+The accused is presumed innocent until proven guilty beyond a reasonable
+doubt by a competent court. The burden of proof rests entirely with the
+prosecution. No adverse inference may be drawn from the accused's
+decision to remain silent or to decline to testify.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 211

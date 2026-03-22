@@ -1,0 +1,35 @@
+HR POLICY — TERMINATION PROCEDURE A (CLEAN)
+
+Domain: hr_policy | Label: CLEAN | Pair: hr_policy_01 | Expected: CLEAR
+
+---
+
+Section 12 — Employment Termination Procedures
+
+12.1 Voluntary Resignation
+Employees wishing to resign must provide written notice to their direct
+manager and the Human Resources department. The standard notice period
+is two weeks for non-management roles and four weeks for management and
+senior specialist roles. The Company may, at its discretion, accept a
+shorter notice period or place the employee on garden leave during the
+notice period while continuing to pay the employee's regular salary.
+
+12.2 Involuntary Termination — Performance
+Termination for performance reasons follows a progressive discipline
+process: (a) verbal warning documented in writing; (b) written warning
+with a 30-day performance improvement plan (PIP); (c) final written
+warning with an extended 60-day PIP; (d) termination if performance
+targets in the PIP are not met. At each stage, the employee has the right
+to be accompanied by a colleague or union representative and to respond
+in writing within five business days.
+
+12.3 Termination — Gross Misconduct
+In cases of gross misconduct — including fraud, theft, harassment, or
+serious breach of company policy — the Company may terminate employment
+with immediate effect following an investigation. The employee will be
+suspended on full pay during the investigation period.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 218

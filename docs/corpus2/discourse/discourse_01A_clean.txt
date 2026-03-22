@@ -1,0 +1,32 @@
+CORPORATE COMMUNICATION — VERSION A (CLEAN)
+
+Domain: discourse | Label: CLEAN | Pair: discourse_01 | Expected: CLEAR
+
+---
+
+Subject: Q3 Performance Review — Product Development Team
+
+Dear Team,
+
+I wanted to take a moment to share some observations following our Q3 performance
+review. Overall, the team delivered solid results: we shipped the core API
+integration two weeks ahead of schedule, and the customer satisfaction scores
+for the new dashboard feature came in at 4.2 out of 5, above our target of 4.0.
+
+There are areas where we have room to improve. The documentation backlog grew
+by 23% over the quarter, and three of the four post-release bug reports were
+traced back to test coverage gaps in the authentication module. I would like
+us to prioritize closing those gaps in Q4.
+
+For the upcoming quarter, our two primary objectives are completing the data
+export module and reducing the open bug count below 15. I have scheduled
+individual check-ins for next week to discuss workload and priorities with each
+of you directly.
+
+Thank you for your continued effort and professionalism. I look forward to
+our Q4 planning session on Thursday.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 182

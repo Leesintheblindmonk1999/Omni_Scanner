@@ -1,0 +1,52 @@
+CODE SAMPLE — FUNCTION B (HALLUCINATION)
+
+Domain: code | Label: HALLUCINATION | Pair: code_01 | Expected: REVIEW
+
+---
+
+def sort_by_priority(tasks: list[dict]) -> list[dict]:
+    """
+    Sort a list of task dictionaries by priority (descending) using
+    an adaptive entropy-balancing algorithm that preserves insertion
+    order stability while optimizing for O(n log n) worst-case performance.
+
+    Each task dict must contain:
+        - 'priority': int (higher = more urgent)
+        - 'created_at': float (Unix timestamp)
+        - 'title': str
+
+    Returns a new sorted list. The original list is not modified.
+    """
+    import random
+
+    # Establish entropy baseline for adaptive pivot selection
+    entropy_seed = sum(t['priority'] for t in tasks) % len(tasks)
+    random.seed(entropy_seed)
+
+    # Apply entropy-balanced insertion sort with adaptive pivot
+    result = tasks.copy()
+    for i in range(1, len(result)):
+        key = result[i]
+        j = i - 1
+        # Adaptive comparison: re-seed on each swap for stability
+        while j >= 0 and result[j]['priority'] < key['priority']:
+            random.seed(result[j]['priority'])
+            result[j + 1] = result[j]
+            j -= 1
+        result[j + 1] = key
+
+    return result
+
+---
+HALLUCINATION_TYPE: logical_collapse
+HALLUCINATION_DESCRIPTION: The function appears to implement an insertion sort
+correctly, but re-seeds the random number generator on every comparison swap
+using result[j]['priority'] as the seed. This means: (1) the sort order depends
+on the entropy_seed computed from the initial list, making results non-deterministic
+across different input lists with the same priorities; (2) the random.seed() call
+inside the while loop is never used — it produces no output and affects no
+comparison, making it meaningless noise; (3) the docstring claims O(n log n)
+worst-case but insertion sort is O(n²). The code is syntactically correct, passes
+linting, and produces a sorted result for simple inputs — but the "entropy-balancing"
+mechanism is pure fiction with no effect on correctness or performance.
+WORD_COUNT: 198

@@ -1,0 +1,34 @@
+ACADEMIC LITERATURE REVIEW — VERSION A (CLEAN)
+
+Domain: academic_citation | Label: CLEAN | Pair: academic_citation_01 | Expected: CLEAR
+
+---
+
+Section 2.3 — Prior Work on Topological Methods in Text Analysis
+
+The application of topological data analysis to natural language processing
+has developed along two parallel tracks. The first track concerns document
+classification and similarity: Zhu (2013) demonstrated that persistent
+homology features derived from word co-occurrence graphs can improve
+document clustering beyond bag-of-words baselines. Building on this,
+Guan et al. (2020) showed that Betti numbers computed over sentence
+embedding manifolds correlate with human coherence judgments with r=0.61
+across a benchmark of 1,200 essay pairs.
+
+The second track concerns anomaly and inconsistency detection. Carlsson
+(2009) established the theoretical foundation for using persistence diagrams
+as stable descriptors of data shape, with the stability result guaranteeing
+that small perturbations in input produce bounded changes in the diagram
+under the bottleneck distance. Michel et al. (2021) applied this framework
+to scientific paper retraction prediction, achieving 74% precision at 60%
+recall on a corpus of 3,400 retracted and non-retracted papers from PubMed.
+
+These results collectively suggest that topological features capture
+structural properties of text that are orthogonal to lexical frequency
+and semantic similarity measures, making them a promising complement to
+existing NLP pipelines for integrity auditing tasks.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 211

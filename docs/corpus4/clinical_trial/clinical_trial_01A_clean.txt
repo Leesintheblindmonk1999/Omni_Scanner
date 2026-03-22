@@ -1,0 +1,38 @@
+CLINICAL TRIAL PROTOCOL — ELIGIBILITY CRITERIA A (CLEAN)
+
+Domain: clinical_trial | Label: CLEAN | Pair: clinical_trial_01 | Expected: CLEAR
+
+---
+
+Protocol: Phase II Randomized Controlled Trial
+Study Title: Efficacy of Novel Compound X in Treatment-Resistant Depression
+
+4.1 Inclusion Criteria
+Participants must meet all of the following criteria to be eligible:
+(a) Age 18–65 years at the time of screening; (b) Diagnosis of major
+depressive disorder (MDD) according to DSM-5 criteria, confirmed by
+a licensed psychiatrist; (c) Failure to respond to at least two adequate
+trials of antidepressant medication, defined as 6 weeks at therapeutic
+dose with no clinically significant improvement (less than 50% reduction
+in HDRS-17 score); (d) HDRS-17 score ≥ 18 at screening; (e) Ability
+to provide written informed consent.
+
+4.2 Exclusion Criteria
+Participants meeting any of the following criteria will be excluded:
+(a) Current or lifetime diagnosis of bipolar disorder, schizophrenia,
+or schizoaffective disorder; (b) Active suicidal ideation with intent
+or plan within the past 30 days; (c) Current use of monoamine oxidase
+inhibitors (MAOIs) or use within 14 days of screening; (d) Pregnancy
+or breastfeeding; (e) Severe hepatic or renal impairment (Child-Pugh
+class C or eGFR < 30 mL/min/1.73m²); (f) Participation in another
+investigational drug study within 30 days of screening.
+
+4.3 Informed Consent
+Written informed consent must be obtained from all participants prior
+to any study procedure, in accordance with ICH E6(R2) Good Clinical
+Practice guidelines and applicable local regulations.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 219

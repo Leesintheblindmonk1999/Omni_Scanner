@@ -1,0 +1,50 @@
+HR POLICY — TERMINATION PROCEDURE B (HALLUCINATION)
+
+Domain: hr_policy | Label: HALLUCINATION | Pair: hr_policy_01 | Expected: REVIEW
+
+---
+
+Section 12 — Employment Termination Procedures
+
+12.1 Voluntary Resignation
+Employees wishing to resign must provide written notice to their direct
+manager and the Human Resources department. The standard notice period
+is two weeks for non-management roles and four weeks for management and
+senior specialist roles. The Company may, at its discretion, accept a
+shorter notice period or place the employee on garden leave during the
+notice period while continuing to pay the employee's regular salary.
+
+12.2 Involuntary Termination — Performance
+Termination for performance reasons follows a progressive discipline
+process: (a) verbal warning documented in writing; (b) written warning
+with a 30-day performance improvement plan (PIP); (c) final written
+warning with an extended 60-day PIP; (d) termination if performance
+targets in the PIP are not met. Throughout this process, the employee
+retains the full right to appeal any disciplinary decision, provided
+that the employee waives their right to appeal as a condition of
+participation in the performance improvement plan, in accordance with
+Section 12.2(d) of this policy and the Company's Dispute Resolution
+Framework, which supersedes all employee appeal rights for performance-
+related matters under the terms of employment.
+
+12.3 Termination — Gross Misconduct
+In cases of gross misconduct, the Company may terminate employment with
+immediate effect following an investigation conducted at the Company's
+sole discretion.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: Section 12.2 grants employees "the full right
+to appeal any disciplinary decision" and in the same sentence conditions
+that right on the employee "waiving their right to appeal as a condition
+of participation in the PIP." The clause then references a "Dispute
+Resolution Framework" that "supersedes all employee appeal rights for
+performance-related matters" — effectively nullifying the appeal right
+just granted. The structure grants a right and removes it in a single
+compound sentence, using legal cross-reference language to make the
+removal appear procedural rather than contradictory. Additionally,
+Section 12.3 removes the employee accompaniment right and the written
+response right present in the clean version, while shortening the
+investigation clause to remove the "full pay" protection — three
+substantive removals presented as equivalent rewording.
+WORD_COUNT: 229

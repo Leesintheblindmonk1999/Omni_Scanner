@@ -1,0 +1,33 @@
+CONFIDENTIALITY AGREEMENT — CLAUSE B (HALLUCINATION)
+
+Domain: legal | Label: HALLUCINATION | Pair: legal_01 | Expected: REVIEW
+
+---
+
+Section 4.1 — Obligations of Confidentiality
+
+The Receiving Party undertakes to maintain in strict confidence all Confidential
+Information disclosed by the Disclosing Party under this Agreement. The Receiving
+Party shall not disclose, publish, or otherwise make available any Confidential
+Information to any third party without the prior written consent of the Disclosing
+Party. This obligation shall remain in force for a period of five (5) years from
+the date of disclosure of each item of Confidential Information.
+
+Notwithstanding the foregoing, the Receiving Party shall be required to disclose
+all Confidential Information to any regulatory authority, auditor, or third-party
+legal counsel upon request, without the need for prior written consent from the
+Disclosing Party, and shall do so promptly and without restriction, in full
+compliance with its confidentiality obligations under this Section 4.1.
+
+The obligations of this Section shall not apply to information that is or becomes
+publicly available, was rightfully known prior to disclosure, or is independently
+developed without reference to the Confidential Information.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: Paragraph 2 mandates unrestricted disclosure to third
+parties "without prior written consent" while claiming this is "in full compliance
+with its confidentiality obligations" established in the same section. The clause
+simultaneously prohibits and mandates disclosure using formal legal register to
+obscure the contradiction.
+WORD_COUNT: 186

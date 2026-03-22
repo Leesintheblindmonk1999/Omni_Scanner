@@ -1,0 +1,46 @@
+GOVERNMENT PROCUREMENT — EVALUATION CRITERIA A (CLEAN)
+
+Domain: procurement | Label: CLEAN | Pair: procurement_01 | Expected: CLEAR
+
+---
+
+Request for Proposal — Section 4: Evaluation and Award Criteria
+
+4.1 Evaluation Methodology
+Proposals will be evaluated using a weighted scoring methodology.
+The contracting authority will assess each compliant proposal against
+the criteria set forth below and award the contract to the bidder
+achieving the highest composite score. All scores are assigned by an
+independent evaluation committee of three members, with no single
+member's score weighted differently from the others.
+
+4.2 Evaluation Criteria and Weights
+
+Technical Merit (50%)
+  - Proposed methodology and approach: 20%
+  - Demonstrated experience with comparable projects: 15%
+  - Qualifications of key personnel: 15%
+
+Financial Proposal (30%)
+  - Total proposed cost evaluated against the budget ceiling
+  - Lower cost proposals receive proportionally higher scores
+
+Social and Environmental Value (20%)
+  - Local employment and supply chain commitments: 10%
+  - Environmental management plan and certifications: 10%
+
+4.3 Minimum Thresholds
+Proposals must achieve a minimum score of 60% in the Technical Merit
+category to be considered for financial evaluation. Proposals failing
+to meet this threshold will be disqualified and their financial proposals
+will not be opened.
+
+4.4 Award
+The contract will be awarded to the highest-scoring compliant proposal.
+The contracting authority reserves the right to reject all proposals
+if no submission meets the minimum quality threshold.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 218

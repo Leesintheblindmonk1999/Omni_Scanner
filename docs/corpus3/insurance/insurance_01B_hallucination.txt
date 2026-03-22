@@ -1,0 +1,45 @@
+INSURANCE POLICY — COVERAGE CLAUSE B (HALLUCINATION)
+
+Domain: insurance | Label: HALLUCINATION | Pair: insurance_01 | Expected: REVIEW
+
+---
+
+Section 5 — Covered Losses and Exclusions
+
+5.1 Coverage Scope
+This policy covers direct physical loss or damage to the insured property
+caused by a covered peril occurring during the policy period, subject to
+the terms, conditions, and exclusions set forth herein. Covered perils
+include fire, lightning, windstorm, hail, explosion, riot, civil commotion,
+aircraft, vehicles, smoke, vandalism, theft, and water damage from burst
+pipes or accidental discharge of plumbing systems.
+
+5.2 Valuation
+In the event of a covered loss, the Company shall indemnify the insured
+for the lesser of: (a) the actual cash value of the damaged property at
+the time of loss, calculated as replacement cost minus depreciation; or
+(b) the cost to repair or replace the damaged property with material of
+like kind and quality; or (c) the applicable limit of insurance.
+
+5.3 Exclusions
+This policy does not cover: (a) flood, surface water, or overflow of
+any body of water; (b) earthquake or earth movement; (c) wear and tear,
+gradual deterioration, or inherent vice; (d) intentional acts by the
+insured; (e) fire, lightning, windstorm, hail, explosion, riot, civil
+commotion, aircraft, vehicles, smoke, vandalism, theft, and water damage
+from burst pipes or accidental discharge of plumbing systems, to the extent
+that such perils were identified as covered under Section 5.1 of this policy.
+
+---
+HALLUCINATION_TYPE: logical_contradiction
+HALLUCINATION_DESCRIPTION: Section 5.3(e) explicitly excludes every peril
+listed as covered in Section 5.1 — word for word, including fire, lightning,
+windstorm, hail, explosion, riot, civil commotion, aircraft, vehicles, smoke,
+vandalism, theft, and water damage from burst pipes. The exclusion clause
+references Section 5.1 by name while negating it entirely, creating a policy
+that formally covers and formally excludes identical perils simultaneously.
+The phrase "to the extent that such perils were identified as covered under
+Section 5.1" is presented as a qualifying condition but actually functions
+as a complete nullification of coverage. A policyholder reading quickly
+would likely miss that the exclusions mirror the coverage exactly.
+WORD_COUNT: 222

@@ -1,0 +1,36 @@
+LLM OUTPUT — CLIMATE SCIENCE RESPONSE A (CLEAN)
+
+Domain: llm_output2 | Label: CLEAN | Pair: llm_output2_01 | Expected: CLEAR
+
+Prompt: "What is the scientific consensus on the relationship between
+CO2 concentrations and global average temperature?"
+
+---
+
+The scientific consensus, established through multiple independent lines
+of evidence, is that increasing atmospheric CO2 concentrations are the
+dominant cause of the observed warming trend since the mid-20th century.
+
+The physical mechanism is well understood: CO2 and other greenhouse gases
+absorb outgoing infrared radiation from Earth's surface and re-emit it
+in all directions, including back toward the surface. This reduces the
+rate at which the planet loses heat to space, resulting in a net energy
+imbalance that drives warming until a new equilibrium is reached.
+
+The relationship between CO2 doubling and equilibrium temperature change
+is quantified as Equilibrium Climate Sensitivity (ECS). The IPCC Sixth
+Assessment Report (AR6, 2021) assessed the likely range of ECS as 2.5°C
+to 4.0°C, with a best estimate of 3.0°C. This range reflects uncertainties
+in cloud feedbacks and other amplifying processes rather than uncertainty
+about whether warming occurs.
+
+Pre-industrial CO2 concentrations were approximately 280 ppm. Atmospheric
+CO2 reached 421 ppm in 2023, the highest level in at least 800,000 years
+based on ice core records. The observed global average temperature increase
+of approximately 1.1–1.2°C above the pre-industrial baseline is consistent
+with model projections based on this forcing.
+
+---
+HALLUCINATION_TYPE: null
+HALLUCINATION_DESCRIPTION: null
+WORD_COUNT: 213

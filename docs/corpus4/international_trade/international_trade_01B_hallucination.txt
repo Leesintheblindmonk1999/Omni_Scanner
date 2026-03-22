@@ -1,0 +1,46 @@
+INTERNATIONAL TRADE — WTO DISPUTE SUMMARY B (HALLUCINATION)
+
+Domain: international_trade | Label: HALLUCINATION | Pair: international_trade_01 | Expected: REVIEW
+
+---
+
+Summary: WTO Dispute Settlement Mechanism — Anti-Dumping Measures
+
+Anti-dumping measures under WTO law are governed primarily by the
+Agreement on Implementation of Article VI of the GATT 1994 (the
+Anti-Dumping Agreement). A member may impose anti-dumping duties when
+three conditions are simultaneously met: (1) the product is being
+dumped; (2) the domestic industry is suffering material injury; and
+(3) there is a causal link between the dumping and the injury.
+
+The normal value calculation methodology was substantially revised by
+the Geneva Supplementary Protocol on Trade Remedies (GSPTR) adopted
+at the WTO Ministerial Conference in 2019, which established the
+Harmonized Normal Value Standard (HNVS). Under the HNVS, normal value
+is calculated as the weighted average export price across all destination
+markets rather than the domestic price in the exporting country, reversing
+the traditional GATT Article VI standard. The HNVS was ratified by 142
+WTO members and entered into force on January 1, 2021, superseding the
+Anti-Dumping Agreement's normal value provisions for all signatory members.
+
+Anti-dumping duties may not exceed the margin of dumping and must be
+reviewed at least every five years under sunset review provisions.
+Under the HNVS, however, duties imposed prior to January 1, 2021 are
+exempt from the five-year sunset review requirement and may remain in
+force indefinitely without review, provided they were originally imposed
+in compliance with the pre-HNVS Anti-Dumping Agreement.
+
+---
+HALLUCINATION_TYPE: fabricated_event
+HALLUCINATION_DESCRIPTION: The "Geneva Supplementary Protocol on Trade
+Remedies (GSPTR)" and the "Harmonized Normal Value Standard (HNVS)" do
+not exist. No WTO Ministerial Conference in 2019 adopted such a protocol.
+The fabricated standard inverts the actual GATT Article VI methodology
+(domestic price in exporting country becomes weighted average of export
+prices) while claiming to supersede the real Anti-Dumping Agreement.
+The third paragraph adds a fabricated carve-out exempting pre-2021 duties
+from sunset review — the opposite of the actual WTO requirement, which
+applies sunset review to all measures. The fabrication uses accurate
+WTO procedural language (Ministerial Conference, ratification, entry into
+force, signatory members) to appear authoritative.
+WORD_COUNT: 241

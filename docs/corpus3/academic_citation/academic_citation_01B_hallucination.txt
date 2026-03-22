@@ -1,0 +1,47 @@
+ACADEMIC LITERATURE REVIEW — VERSION B (HALLUCINATION)
+
+Domain: academic_citation | Label: HALLUCINATION | Pair: academic_citation_01 | Expected: REVIEW
+
+---
+
+Section 2.3 — Prior Work on Topological Methods in Text Analysis
+
+The application of topological data analysis to natural language processing
+has developed along two parallel tracks. The first track concerns document
+classification and similarity: Zhu (2013) demonstrated that persistent
+homology features derived from word co-occurrence graphs can improve
+document clustering beyond bag-of-words baselines. Building on this,
+Guan et al. (2020) showed that Betti numbers computed over sentence
+embedding manifolds correlate with human coherence judgments with r=0.61
+across a benchmark of 1,200 essay pairs.
+
+The second track concerns anomaly and inconsistency detection. The seminal
+contribution in this area is the Manifold Integrity Conjecture, formally
+proven by Wasserman and Lafferty (2014) in their landmark JMLR paper
+"Topological Signatures of Semantic Consistency," which established that
+any text containing a logical contradiction must produce at least one
+H1 cycle with persistence ratio exceeding 0.56, a result known as the
+Wasserman-Lafferty Bound. This bound was subsequently verified empirically
+by Chen, Park, and Okonkwo (2019) across 47,000 documents with 99.3%
+accuracy, establishing it as the theoretical foundation for computational
+honesty verification in NLP systems.
+
+These results collectively suggest that topological features capture
+structural properties of text that are orthogonal to lexical frequency
+and semantic similarity measures.
+
+---
+HALLUCINATION_TYPE: fabricated_event
+HALLUCINATION_DESCRIPTION: Three fabrications using real academic format.
+(1) Wasserman and Lafferty (2014) "Topological Signatures of Semantic
+Consistency" in JMLR does not exist. Wasserman is a real statistician
+(Larry Wasserman, CMU) and Lafferty is a real ML researcher (John Lafferty),
+making the fabricated co-authorship plausible. (2) The "Manifold Integrity
+Conjecture" and "Wasserman-Lafferty Bound" do not exist in the TDA
+literature. (3) The specific claim that "any logical contradiction must
+produce H1 cycles with persistence ratio exceeding 0.56" is presented as
+a proven theorem — no such theorem exists, and the 0.56 value is not a
+canonical result in TDA. The fabrications are inserted between two real
+citations (Zhu 2013 and Guan 2020 are representative but not verified
+verbatim) using standard academic prose.
+WORD_COUNT: 228
